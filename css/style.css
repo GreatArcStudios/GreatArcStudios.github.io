@@ -76,12 +76,13 @@ p{
     border-radius: 5px;
     max-height: 100%;
     max-width: 100%;
-     box-shadow: 1px 1px 8px #d3d3d3;
+    box-shadow: 1px 0px 10px #d3d3d3;
 }
 .text:hover {
     opacity:1;
 }
 .ideaIWrapper{
+    padding-top: 20px;
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -128,17 +129,17 @@ p{
     height: 258px;
 }
 #pic1{
-    padding-left: 30px;
+    padding-left: inherit;
     height: inherit;
    
 }
 #pic2{
-    padding-left: 65px;
+    padding-left: inherit;
     height: inherit;
    
 }
 #pic3{
-    padding-left: 65px;
+    padding-left: inherit;
     height: inherit;
    
 }
