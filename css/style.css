@@ -1,0 +1,134 @@
+
+.ericHeader{
+    font-family: 'Roboto', sans-serif;
+    font-size:  60px;
+    font-weight: 400;
+    text-decoration-color:  -color: #FFFFFF;
+    text-shadow:  1px 1px 8px #d3d3d3;
+}
+.footerIcons{
+    padding-bottom: 2.2px;
+    width: 32px;
+    height: 32px;
+}
+.footerTwitterIcon{
+    padding-bottom: 1.6px;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: inherit;
+    font-weight: 300;
+}
+.ideaTitles{
+    text-align:  center;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.4; 
+    left: 0;
+}   
+.text {
+   color:#191919;
+    font-size: 280%;
+    background-color:rgba(255,255,255,0.8);
+    width: 100%;
+    height: 100%;
+    line-height:100px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    position: absolute;
+    border-radius: 5px;
+    cursor:context-menu;
+}   
+.expandElement{
+    position: relative;
+    width: 0px;
+    height:0px;
+    overflow: hidden;
+    transition: all linear .3s;
+}
+
+.expand {
+    margin-left: 0;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: #e5e5e5;
+    
+}
+.overlayImg{
+    opacity: 1;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    max-height: 100%;
+    max-width: 100%;
+     box-shadow: 1px 1px 8px #d3d3d3;
+}
+.text:hover {
+    opacity:1;
+}
+.ideaIWrapper{
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    display: block;
+}
+
+.fade {
+   opacity: 2;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+.fade:hover {   
+      opacity: 0.5;
+}
+.white{
+    color: #fff;
+    font-size: 100px;
+    padding-top: 10px;
+}
+.welcomeText{
+    vertical-align: middle;
+    padding-top: 75px;
+}
+.bg-vid{
+     position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}
+
+#idea1{
+    width: 200px;
+    height: 258px;
+}
+#pic1{
+    padding-left: 30px;
+    height: inherit;
+   
+}
