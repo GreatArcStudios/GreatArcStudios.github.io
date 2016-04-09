@@ -6,16 +6,21 @@
     text-decoration-color:  -color: #FFFFFF;
     text-shadow:  1px 1px 8px #d3d3d3;
 }
-.footerIcons{
+.footerGithub{
     padding-bottom: 2.2px;
     width: 32px;
     height: 32px;
 }
-.footerTwitterIcon{
+.footerTwitter{
     padding-bottom: 1.6px;
     width: 24px;
     height: 24px;
     opacity: 1;
+}
+.footerIcons:hover{
+    filter: brightness(0.5);
+    filter: contrast(200%);
+    filter: drop-shadow(1px 1px 8px #d3d3d3);
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -85,8 +90,6 @@ p{
 .ideaIWrapper{
     padding-top: 20px;
     background-size: cover;
-    width: 300px;
-    height: 200px;
     overflow: hidden;
     display: block;
 }
@@ -123,8 +126,37 @@ p{
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.slideContent{
+    width: 100%;
+    height: 100%;  
+}
+.landingSlide{
+    margin-top: 150px;
+    vertical-align: center;
+}   
+.aboutSlide{
+    padding-top: 300px;
+}
+#About-Slide .slideContent{
+    min-height: 800px;
+    text-align: center;
+    vertical-align: middle; 
+}
+#About-Slide .bcg {
+    background-image:url('/img/code.PNG')
+}
 #idea1{
     width: 200px;
     height: 258px;
