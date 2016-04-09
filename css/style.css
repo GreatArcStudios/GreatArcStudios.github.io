@@ -1,4 +1,6 @@
-
+::-webkit-scrollbar { 
+    display: none; 
+}
 .ericHeader{
     font-family: 'Roboto', sans-serif;
     font-size:  60px;
@@ -148,6 +150,7 @@ p{
 }   
 .aboutSlide{
     padding-top: 300px;
+    padding-bottom: 50px;
 }
 #About-Slide .slideContent{
     min-height: 800px;
@@ -187,4 +190,7 @@ p{
     padding-left: inherit;
     height: inherit;
    
+}
+#academics{
+    text-align: left;
 }
