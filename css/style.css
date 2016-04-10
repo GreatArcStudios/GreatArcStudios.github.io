@@ -12,17 +12,20 @@
     padding-bottom: 2.2px;
     width: 32px;
     height: 32px;
+   
 }
 .footerTwitter{
     padding-bottom: 1.6px;
     width: 24px;
     height: 24px;
-    opacity: 1;
+    
+}
+.footerIcons{
+    margin-right: -15px;
+    opacity: 0.5;
 }
 .footerIcons:hover{
-    filter: brightness(0.5);
-    filter: contrast(200%);
-    filter: drop-shadow(1px 1px 8px #d3d3d3);
+    opacity: 1;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -151,7 +154,16 @@ p{
 }   
 .aboutSlide{
     padding-top: 300px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+}
+.scrollDown{
+    width: 64px;
+    height: 64px;
+    bottom: 0;
+    opacity: 0.5;
+}
+.scrollDown:hover{
+    opacity: 1;
 }
 #About-Slide .slideContent{
     min-height: 800px;
