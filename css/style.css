@@ -94,6 +94,7 @@ p{
     background-size: cover;
     overflow: hidden;
     display: block;
+    z-index: 1;
 }
 
 .fade {
