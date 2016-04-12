@@ -129,9 +129,8 @@ body {
     overflow: auto;
     -webkit-overflow-scrolling: touch; }
   .grid .item-content {
-    max-width: 800px;
     margin: 0 auto;
-    padding: 80px 60px 60px; }
+    }
     .grid .item-content h2 {
       font-size: 80px;
       margin-bottom: 50px;

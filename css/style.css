@@ -116,7 +116,6 @@ p{
 }
 .welcomeText{
     vertical-align: middle;
-    padding-top: 75px;
 }
 .bg-vid{
      position: fixed;
@@ -140,7 +139,7 @@ p{
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     height: 100%;
     width: 100%;
 }
@@ -156,14 +155,20 @@ p{
     padding-top: 300px;
     padding-bottom: 100px;
 }
-.scrollDown{
+img.scrollDown{
     width: 64px;
     height: 64px;
-    bottom: 0;
+    margin: 30px;
     opacity: 0.5;
+    
 }
-.scrollDown:hover{
+img.scrollDown:hover{
     opacity: 1;
+}
+.graphicDesignSlide{
+    width: inherit;
+    margin-top: 50px;
+  height: 1000px;
 }
 #About-Slide .slideContent{
     min-height: 800px;
@@ -206,4 +211,16 @@ p{
 }
 #academics{
     text-align: left;
+}
+#graphicDesign-Slide-1 .bcg{
+    
+    background-image: url('../img/misty%20pountains.png');
+}
+#graphicDesign-Slide-2 .bcg{
+ 
+    background-image: url('../img/Postcard%20extra%20credit.png');
+}
+#graphicDesign-Slide-3 .bcg{
+
+    background-image: url('../img/Dragon%20(3).png');
 }
