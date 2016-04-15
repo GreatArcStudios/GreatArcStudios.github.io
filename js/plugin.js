@@ -1,6 +1,6 @@
 /*
 *Thanks to Kickdrop for providing this script for the overlay.
-
+*
 * debouncedresize: special jQuery event that happens once after a window resize
 *
 * latest version and complete README available on Github:
