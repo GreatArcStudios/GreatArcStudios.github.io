@@ -142,6 +142,7 @@ p{
     background-size: contain;
     height: 100%;
     width: 100%;
+    position: absolute;
 }
 .slideContent{
     width: 100%;
@@ -169,7 +170,9 @@ img.scrollDown:hover{
     width: inherit;
     margin-top: 50px;
     height: 100%;
+    position: relative;
 }
+
 .curtainContainer {
     width: 100%; height: 100%;
     position: relative;
@@ -185,6 +188,20 @@ img.scrollDown:hover{
     bottom: 30%; left: 0;
     width: 100%; text-align: center;
 }
+.curtainContainer .copy h2{
+    text-align: left;
+    vertical-align: middle;
+    font-size: 50px;
+    padding: 10px;
+}
+.curtainContainer .copy p{
+    text-align: left;
+    font-size: 30px;
+    vertical-align: middle;
+    width: 45%;
+    padding-left: 15px;
+}
+
 #About-Slide .slideContent{
     min-height: 800px;
     text-align: center;

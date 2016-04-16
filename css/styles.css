@@ -23,7 +23,7 @@ body {
     background-color: inherit;
     box-shadow: none; }
     .grid li.open {
-      z-index: 9000; }
+      z-index: 9999; }
     .grid li:hover {
       z-index: 10; }
       .grid li:hover .item-bg {
