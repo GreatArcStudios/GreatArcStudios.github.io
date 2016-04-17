@@ -253,6 +253,31 @@ img.scrollDown:hover{
     background-image: url('../img/Postcard%20extra%20credit.png');
 }
 #graphicDesign-Slide-3 .bcg{
-
     background-image: url('../img/Dragon%20(3).png');
+}
+#graphicDesign-Slide-4 .bcg{
+ background-size: cover;
+    background-image: url('../img/new%20horizons%20logo.png');
+}
+#graphicDesign-Slide-5 .bcg{
+ background-size: cover;
+    background-image: url('../img/Great%20Arc%20Studios%20logo.png');
+}
+
+#graphicDesign-Slide-6 {
+    height: 75%;
+}
+.pauseMenuSlide{
+    width: inherit;
+    margin-top: 50px;
+    height: 100%;
+    position: relative;
+}
+#pauseMenu-Slide-1 .bcg{
+    background-size: cover;
+    background-image: url('../img/Pause%20menu%206.PNG');
+}
+#pauseMenu-Slide-2 .bcg{
+    background-size: cover;
+    background-image: url('../img/Audio%20panel.gif');
 }
