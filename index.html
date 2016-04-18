@@ -3,16 +3,17 @@
     <head>
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, minimum-scale=0.9,user-scalable=no">
+              <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
                 <title>Eric Zhu</title>
                 <link rel="icon" 
       type="image/png" 
       href="img/Eric%20Zhu%20programmer-03.png">
                     <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
                         <link rel="stylesheet" href="css/bootstrap.min.css">
+                        <link href="css/styles.css" media="all"  rel="stylesheet">
                             <link href="css/cover.css" rel="stylesheet">
                                 <link href="css/style.css" rel="stylesheet" type="text/css">
-                                    <link href="css/styles.css" media="all"  rel="stylesheet">
+                                   
                                         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.1/modernizr.min.js"></script>
                                         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
                                     </head>
@@ -63,9 +64,10 @@
                                                                         </div>
                                                                         <div class = " container" style = "margin-left: -120px;">
                                                                             <div class = "row" style = "display: inline-block;">
-                                                                                <ul class = "grid " >
-                                                                                    <li class = "ideaIWrapper col-sm-4"  id = "pic1">
-                                                                                        <div class = "item-name item-1">
+                                                                                
+                                                                                <ul class = "grid clearfix" >
+                                                                                    <li class = "ideaIWrapper col-sm-4 item-1"  id = "pic1">
+                                                                                        <div class = "item-name">
                                                                                             <span class = "text item-name-inner" id = "idea1">Pause Menu</span>
                                                                                             <img src = "img/Landscape%204.png " class= "overlayImg">
                                                                                             </div>
@@ -77,9 +79,9 @@
                                                                                                     <h2>
                                                                            Unity Pause Menu
                                                                         </h2>
-                                                                                                    <strong style = "font-size: 20px;">
+                                                                                                    <h3>
              1000 lines of well documented c# code.
-                                                                            </strong>
+                                                                            </h3>
                                                                                                     <section class = "pauseMenuSlide" id = "pauseMenu-Slide-1" >
                                                                                                                 <div class="bcg"  
         data-anchor-target="#pauseMenu-Slide-1 " >
@@ -107,18 +109,58 @@
                                                                                                                                     <h2 style = "font-size: 75px; font-weight: bold;">The Audio Panel</h2>
                                                                                                                                 </div>
                                                                                                                                 <div class = "col-sm-8">
-                                                                                                                                    <p>My open source pause menu was originally made for my game, New Horizons. In order to create this menu I largely implemented the Unity QualitySettings into a custom manager, which allows the gamer to fully customize their experience. In addition, I utilized Sketch to create UI themes and Unity animation system in order to deliver an aesthetically pleasing asset. </p>
+                                                                                                                                    <p>The audio panel was designed with a clean look in mind. Control over the master volume was achieved through modifying the AudioListener Volume. Control over Music and Sound Effects was achieved through modifying the AudioSource volume by iterating over arrays of audio sources and modifying each one by a factor of "f". </p>
                                                                                                                                 </div>
                                                                                                                             </div>
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </section>
+                                                                                                    <section class = "pauseMenuSlide" id = "pauseMenu-Slide-3" >
+                                                                                                                <div class="bcg"  
+        data-anchor-target="#pauseMenu-Slide-3 " >
+                                                                                                                    <div class="curtainContainer">
+                                                                                                                        <div class="copy" >
+                                                                                                                            <div class= "row">
+                                                                                                                                <div class = "col-md-5">
+                                                                                                                                    <h2 style = "font-size: 75px; font-weight: bold;">The Video Panel</h2>
+                                                                                                                                </div>
+                                                                                                                                <div class = "col-sm-8">
+                                                                                                                                    <p>The video panel was designed to be robust and easy to use. It was achieved through implementing the QualitySettings. Terrain settings were achieved through modifying the terrain parameters. The aniamtions were achieved through Unity's animation system.</p>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </section>
+                                                                                                     <section class = "pauseMenuSlide" id = "pauseMenu-Slide-4" >
+                                                                                                          <div class = "darkenOverlay">     
+                                                                                                         <div class="bcg"  
+        data-anchor-target="#pauseMenu-Slide-4 " > </div></div>
+                                                                                                                    <div class="curtainContainer"  >
+                                                                                                                        <div class="copy" >
+                                                                                                                            <div class= "row">
+                                                                                                                                <div class = "col-md-5">
+                                                                                                                                    <h2 style = "font-size: 75px; font-weight: bold;">Project hosting on Github</h2>
+                                                                                                                                </div>
+                                                                                                                                <div class = "col-sm-8">
+                                                                                                                                    <p>From the beginning of this project, I knew I wanted to make this open source. Naturally, I chose Github to host my project. In order to keep this project a competitive option to paid menus, I keep the repo updated with bug fixes and new featrues. </p>
+                                                                                                                                    <br> 
+                                                                                                                                    <p> Check out the releases <a href="https://github.com/GreatArcStudios/unitypausemenu/releases"> here.</a></p>
+                                                                                                                                
+                                                                                                                                    
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                               
+                                                                                                         
+                                                                                                            </section>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </li>
-                                                                                        <li class = " ideaIWrapper col-sm-4 " id = "pic2">
-                                                                                            <div class = "item-name item-2">
+                                                                                        <li class = " ideaIWrapper col-sm-4 item-2" id = "pic2">
+                                                                                            <div class = "item-name ">
                                                                                                 <span class = "text item-name-inner" id = "idea2"> Unity3d</span>
                                                                                                 <img src = "img/eric%20code.png " class= "overlayImg ">
                                                                                                 </div>
@@ -139,9 +181,9 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </li>
-                                                                                            <li class = "ideaIWrapper col-sm-4 " id = "pic3">
-                                                                                                <div class=" item-name item-3">
-                                                                                                    <span class = "text item-name-inner "  id = "idea3">Graphic Design</span>
+                                                                                            <li class = "ideaIWrapper col-sm-4  item-3" id = "pic3">
+                                                                                                <div class=" item-name">
+                                                                                                    <div class = "text item-name-inner"  id = "idea3"><p>Graphic Design</p></div>
                                                                                                     <img src = "img/Graphic%20design%20.png" class= "overlayImg ">
                                                                                                     </div>
                                                                                                     <div class="item-overlay">
@@ -255,13 +297,44 @@
                                                                                                                                     <h2 style = "font-size: 75px; font-weight: bold;">UI Assets</h2>
                                                                                                                                 </div>
                                                                                                                                 <div class = "col-sm-8">
-                                                                                                                                    <p>UI Assets made for the Unity Pause Menu. All of these were made in Sketch</p>
+                                                                                                                                    <p>UI Assets made for the Unity Pause Menu in Sketch.</p>
                                                                                                                                 </div>
+                                                                                                                            </div>
+                                                                                                                           <br> 
+                                                                                                                             <p> Buttons</p>
+                                                                                                                            <div class = "row"> 
+                                                                                                                           
+                                                                                                                            <div class = "col-sm-3">
+                                                                                                                                    <img src = "/img/button%20style%202%20clicked%20(1).png">
+                                                                                                                                <p style = "text-align: center;"> Clicked State</p>
+                                                                                                                                </div>
+                                                                                                                                <div class = "col-sm-3">
+                                                                                                                                    <img src = "/img/button%20style%202%20hover%20(1).png">
+                                                                                                                                </div>
+                                                                                                                                <div class = "col-sm-3">
+                                                                                                                                    <img src = "/img/button%20style%202%20idle%20(2).png">
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                            <br> 
+                                                                                                                             <p> Scrollbar</p>
+                                                                                                                            <div class = "row"> 
+                                                                                                                           
+                                                                                                                            <div class = "col-sm-3">
+                                                                                                                                    <img src = "/img/button%20style%202%20clicked%20(1).png">
+                                                                                                                                <p style = "text-align: center;"> Clicked State</p>
+                                                                                                                                </div>
+                                                                                                                                <div class = "col-sm-3">
+                                                                                                                                    <img src = "/img/button%20style%202%20hover%20(1).png">
+                                                                                                                                </div>
+                                                                                                                                    <div class = "col-sm-3">
+                                                                                                                                        <img src = "/img/button%20style%202%20idle%20(2).png">
+                                                                                                                                    </div>
                                                                                                                             </div>
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </section>
+                                                                                                              
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </li>

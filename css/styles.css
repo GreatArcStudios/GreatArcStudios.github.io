@@ -23,7 +23,7 @@ body {
     background-color: inherit;
     box-shadow: none; }
     .grid li.open {
-      z-index: 9999; }
+      z-index: 9000; }
     .grid li:hover {
       z-index: 10; }
       .grid li:hover .item-bg {
@@ -97,9 +97,9 @@ body {
         font-size: 42px;
         font-weight: 200; }
     .grid .item-name-inner p {
-      font-size: 18px;
+      font-size: 30px;
       font-weight: 200;
-      border-bottom: 2px solid white;
+      border-bottom: 2px solid black;
       display: inline-block;
       padding-bottom: 8px;
       letter-spacing: 0.05em;
