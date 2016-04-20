@@ -270,8 +270,7 @@ img.scrollDown:hover{
 }
 
 #graphicDesign-Slide-6 {
-    height: 100%;
-    vertical-align: middle;
+   margin-top: 200px;
 }
 .pauseMenuSlide{
     width: inherit;
@@ -294,4 +293,38 @@ img.scrollDown:hover{
 #pauseMenu-Slide-4 .bcg{
     background-size: cover;
     background-image: url('../img/code.PNG');
+}
+.unitySlide{
+    width: inherit;
+    margin-top: 50px;
+    height: 100%;
+    position: relative;
+}
+#unitySlide-Slide-1 .bcg{
+    background-size: cover;
+    background-image: url('../img/Audio%20Visualizer.PNG');
+}
+#unitySlide-Slide-2 .bcg{
+    background-size: cover;
+    background-image: url('../img/Audio%20Visualizer%203.PNG');
+}
+#unitySlide-Slide-3 .bcg{
+    background-size: cover;
+    background-image: url('../img/Audio%20Visualizer%202.PNG');
+}
+#unitySlide-Slide-01 .bcg{
+    background-size: cover;
+    background-image: url('../img/Forest%2057.PNG');
+}
+#unitySlide-Slide-02 .bcg{
+    background-size: cover;
+    background-image: url('../img/Island%20beach%2043.PNG');
+}
+#unitySlide-Slide-03 .bcg{
+    background-size: cover;
+    background-image: url('../img/Island%20beach%2044.PNG');
+}
+#unitySlide-Slide-04 .bcg{
+    background-size: cover;
+    background-image: url('../img/city%2010%20night%20ssr%20testing.PNG');
 }
