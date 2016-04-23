@@ -157,6 +157,7 @@ p{
 .aboutSlide{
     padding-top: 300px;
     padding-bottom: 100px;
+
 }
 img.scrollDown{
     width: 80px;
@@ -303,6 +304,7 @@ img.scrollDown:hover{
 #unitySlide-Slide-1 .bcg{
     background-size: cover;
     background-image: url('../img/Audio%20Visualizer.PNG');
+    
 }
 #unitySlide-Slide-2 .bcg{
     background-size: cover;
@@ -314,7 +316,7 @@ img.scrollDown:hover{
 }
 #unitySlide-Slide-01 .bcg{
     background-size: cover;
-    background-image: url('../img/Forest%2057.PNG');
+    background-image: url('../img/new%20horizons%20logo.png');
 }
 #unitySlide-Slide-02 .bcg{
     background-size: cover;
