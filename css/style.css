@@ -271,7 +271,7 @@ img.scrollDown:hover{
 }
 
 #graphicDesign-Slide-6 .bcg{
-   background-size: cover;
+   background-size: contain;
     background-image: url('../img/Playing%20Card3-03.png');
 }
 .pauseMenuSlide{
