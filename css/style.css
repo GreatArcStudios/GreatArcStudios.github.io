@@ -275,6 +275,11 @@ img.scrollDown:hover{
    background-size: contain;
     background-image: url('../img/Playing%20Card3-03.png');
 }
+#graphicDesign-Slide-7 .bcg{
+   margin-top: 75px;
+   background-size: contain;
+    background-image: url('../img/Good%20Stuff%20white.png');
+}
 .pauseMenuSlide{
     width: inherit;
     margin-top: 50px;
