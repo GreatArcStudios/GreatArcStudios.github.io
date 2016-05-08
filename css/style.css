@@ -1,71 +1,76 @@
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+    display: none;
 }
-body{
-    font-family: 'Roboto', sans-serif;
+
+body {
+    font-family: 'Roboto',sans-serif;
 }
-p{
+
+p {
     font-family: inherit;
     font-weight: 300;
 }
 
-.ericHeader{
-    font-family: 'Roboto', sans-serif;
-    font-size:  60px;
+.ericHeader {
+    font-family: 'Roboto',sans-serif;
+    font-size: 60px;
     font-weight: 400;
-    text-decoration-color:  -color: #FFFFFF;
-    text-shadow:  1px 1px 8px #d3d3d3;
+    text-decoration-color: -color: #FFF;
+    text-shadow: 1px 1px 8px #d3d3d3;
 }
-.footerGithub{
+
+.footerGithub {
     padding-bottom: 2.2px;
     width: 32px;
     height: 32px;
-   
 }
-.footerTwitter{
+
+.footerTwitter {
     padding-bottom: 1.6px;
     width: 24px;
     height: 24px;
-    
 }
-.footerIcons{
+
+.footerIcons {
     margin-right: -15px;
-    opacity: 0.5;
+    opacity: .5;
 }
-.footerIcons:hover{
+
+.footerIcons:hover {
     opacity: 1;
 }
 
-.ideaTitles{
-    text-align:  center;
+.ideaTitles {
+    text-align: center;
     font-weight: 100;
     margin-bottom: 20px;
     font-size: 20px;
-    line-height: 1.4; 
+    line-height: 1.4;
     left: 0;
-}   
+}
+
 .text {
-   color:#191919;
+    color: #191919;
     font-size: 280%;
-    background-color:rgba(255, 255, 255, 0.92);
+    background-color: rgba(255,255,255,0.92);
     width: 100%;
     height: 100%;
-    line-height:100px;
+    line-height: 100px;
     text-align: center;
     z-index: 10;
     opacity: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
     position: absolute;
     border-radius: 5px;
-    
-}   
-.expandElement{
+}
+
+.expandElement {
     position: relative;
-    width: 0px;
-    height:0px;
+    width: 0;
+    height: 0;
     overflow: hidden;
     transition: all linear .3s;
 }
@@ -79,22 +84,23 @@ p{
     height: 100%;
     z-index: 10;
     background-color: #e5e5e5;
-    
 }
-.overlayImg{
+
+.overlayImg {
     opacity: 1;
     width: auto;
     height: auto;
     border-radius: 5px;
     max-height: 100%;
     max-width: 100%;
-    box-shadow: 1px 0px 10px #d3d3d3;
+    box-shadow: 1px 0 10px #d3d3d3;
 }
+
 .text:hover {
-    opacity:1;
-    
+    opacity: 1;
 }
-.ideaIWrapper{
+
+.ideaIWrapper {
     padding-top: 20px;
     background-size: cover;
     overflow: hidden;
@@ -103,23 +109,27 @@ p{
 }
 
 .fade {
-   opacity: 2;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+    opacity: 2;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
 }
-.fade:hover {   
-      opacity: 0.5;
+
+.fade:hover {
+    opacity: .5;
 }
-.white{
+
+.white {
     color: #fff;
     font-size: 100px;
     padding-top: 10px;
 }
-.welcomeText{
+
+.welcomeText {
     vertical-align: middle;
 }
-.bg-vid{
+
+.bg-vid {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -132,11 +142,12 @@ p{
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background-size: cover; 
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .bcg {
     background-position: center center;
     background-repeat: no-repeat;
@@ -146,30 +157,34 @@ p{
     width: 100%;
     position: absolute;
 }
-.slideContent{
+
+.slideContent {
     width: 100%;
-    height: 100%;  
+    height: 100%;
 }
-.landingSlide{
+
+.landingSlide {
     margin-top: 150px;
     vertical-align: center;
-}   
-.aboutSlide{
+}
+
+.aboutSlide {
     padding-top: 300px;
     padding-bottom: 100px;
-
 }
-img.scrollDown{
+
+img.scrollDown {
     width: 80px;
     height: 80px;
     margin: 30px;
     opacity: 1;
-    
 }
-img.scrollDown:hover{
-    opacity: 0.55;
+
+img.scrollDown:hover {
+    opacity: .55;
 }
-.graphicDesignSlide{
+
+.graphicDesignSlide {
     width: inherit;
     margin-top: 50px;
     height: 100%;
@@ -177,164 +192,190 @@ img.scrollDown:hover{
 }
 
 .curtainContainer {
-    width: 100%; height: 100%;
+    width: 100%;
+    height: 100%;
     position: relative;
 }
+
 .curtainContainer .curtain {
-    width: 300%; height: 1px;
-    background-color: #000000;
-    position: absolute; top: 25%; left: 0;
-    opacity: 0
+    width: 300%;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    opacity: 0;
 }
+
 .curtainContainer .copy {
     position: absolute;
-    bottom: 30%; left: 0;
-    width: 100%; text-align: center;
+    bottom: 30%;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
-.curtainContainer .copy h2{
+
+.curtainContainer .copy h2 {
     text-align: left;
     vertical-align: middle;
     font-size: 50px;
     padding: 10px;
 }
-.curtainContainer .copy p{
+
+.curtainContainer .copy p {
     text-align: left;
     font-size: 30px;
-    vertical-align: middle; 
+    vertical-align: middle;
     width: 45%;
     padding-left: 15px;
 }
-.darkenOverlay{
+
+.darkenOverlay {
     background-color: #898989;
-    opacity: 0.43;
+    opacity: .43;
 }
-#About-Slide .slideContent{
+
+#About-Slide .slideContent {
     min-height: 800px;
     text-align: center;
-    vertical-align: middle; 
+    vertical-align: middle;
 }
+
 #About-Slide .bcg {
-    background-image:url('/img/code.PNG')
+    background-image: url(/img/code.PNG);
 }
-#idea1{
+
+#idea1 {
     width: 200px;
     height: 258px;
 }
 
-#idea2{
-    width: 200px; 
-    height: 258px;
-    
-}
-
-#idea3{
-    width: 200px; 
+#idea2 {
+    width: 200px;
     height: 258px;
 }
 
-#pic1{
+#idea3 {
+    width: 200px;
+    height: 258px;
+}
+
+#pic1 {
     padding-left: inherit;
     height: inherit;
-   
 }
-#pic2{
+
+#pic2 {
     padding-left: inherit;
     height: inherit;
-   
 }
-#pic3{
+
+#pic3 {
     padding-left: inherit;
     height: inherit;
-   
 }
-#academics{
+
+#academics {
     text-align: left;
 }
-#graphicDesign-Slide-1 .bcg{
-    
-    background-image: url('../img/misty%20pountains.png');
-}
-#graphicDesign-Slide-2 .bcg{
- 
-    background-image: url('../img/Postcard%20extra%20credit.png');
-}
-#graphicDesign-Slide-3 .bcg{
-    background-image: url('../img/Dragon%20(3).png');
-}
-#graphicDesign-Slide-4 .bcg{
- background-size: cover;
-    background-image: url('../img/new%20horizons%20logo.png');
-}
-#graphicDesign-Slide-5 .bcg{
- background-size: cover;
-    background-image: url('../img/Great%20Arc%20Studios%20logo.png');
+
+#graphicDesign-Slide-1 .bcg {
+    background-image: url(../img/misty%20pountains.png);
 }
 
-#graphicDesign-Slide-6 .bcg{
-    margin-top:100px;
-   background-size: contain;
-    background-image: url('../img/Playing%20Card3-03.png');
+#graphicDesign-Slide-2 .bcg {
+    background-image: url(../img/Postcard%20extra%20credit.png);
 }
-#graphicDesign-Slide-7 .bcg{
-   margin-top: 75px;
-   background-size: contain;
-    background-image: url('../img/Good%20Stuff%20white.png');
+
+#graphicDesign-Slide-3 .bcg {
+    background-image: url(../img/Dragon%20(3).png);
 }
-.pauseMenuSlide{
+
+#graphicDesign-Slide-4 .bcg {
+    background-size: cover;
+    background-image: url(../img/new%20horizons%20logo.png);
+}
+
+#graphicDesign-Slide-5 .bcg {
+    background-size: cover;
+    background-image: url(../img/Great%20Arc%20Studios%20logo.png);
+}
+
+#graphicDesign-Slide-6 .bcg {
+    background-size: contain;
+    background-image: url(../img/Playing%20Card3-03.png);
+}
+
+#graphicDesign-Slide-7 .bcg {
+    background-size: contain;
+    background-image: url(../img/Good%20Stuff%20white.png);
+}
+
+.pauseMenuSlide {
     width: inherit;
     margin-top: 50px;
     height: 100%;
     position: relative;
 }
-#pauseMenu-Slide-1 .bcg{
+
+#pauseMenu-Slide-1 .bcg {
     background-size: cover;
-    background-image: url('../img/Pause%20menu%206.PNG');
-}
-#pauseMenu-Slide-2 .bcg{
-    background-size: cover;
-    background-image: url('../img/Audio%20panel.gif');
-}
-#pauseMenu-Slide-3 .bcg{
-    background-size: cover;
-    background-image: url('../img/video%20panel.gif');
-}
-#pauseMenu-Slide-4 .bcg{
-    background-size: cover;
-    background-image: url('../img/code.PNG');
+    background-image: url(../img/Pause%20menu%206.PNG);
 }
 
-.unitySlide{
+#pauseMenu-Slide-2 .bcg {
+    background-size: cover;
+    background-image: url(../img/Audio%20panel.gif);
+}
+
+#pauseMenu-Slide-3 .bcg {
+    background-size: cover;
+    background-image: url(../img/video%20panel.gif);
+}
+
+#pauseMenu-Slide-4 .bcg {
+    background-size: cover;
+    background-image: url(../img/code.PNG);
+}
+
+.unitySlide {
     width: inherit;
     margin-top: 50px;
     height: 100%;
     position: relative;
 }
-#unitySlide-Slide-1 .bcg{
+
+#unitySlide-Slide-1 .bcg {
     background-size: cover;
-    background-image: url('../img/Audio%20Visualizer.PNG');
-    
+    background-image: url(../img/Audio%20Visualizer.PNG);
 }
-#unitySlide-Slide-2 .bcg{
+
+#unitySlide-Slide-2 .bcg {
     background-size: cover;
-    background-image: url('../img/Audio%20Visualizer%203.PNG');
+    background-image: url(../img/Audio%20Visualizer%203.PNG);
 }
-#unitySlide-Slide-3 .bcg{
+
+#unitySlide-Slide-3 .bcg {
     background-size: cover;
-    background-image: url('../img/Audio%20visualizer%202.PNG');
+    background-image: url(../img/Audio%20visualizer%202.PNG);
 }
-#unitySlide-Slide-01 .bcg{
+
+#unitySlide-Slide-01 .bcg {
     background-size: cover;
-    background-image: url('../img/new%20horizons%20logo.png');
+    background-image: url(../img/new%20horizons%20logo.png);
 }
-#unitySlide-Slide-02 .bcg{
+
+#unitySlide-Slide-02 .bcg {
     background-size: cover;
-    background-image: url('../img/Island%20beach%2043.PNG');
+    background-image: url(../img/Island%20beach%2043.PNG);
 }
-#unitySlide-Slide-03 .bcg{
+
+#unitySlide-Slide-03 .bcg {
     background-size: cover;
-    background-image: url('../img/Island%20beach%2044.PNG');
+    background-image: url(../img/Island%20beach%2044.PNG);
 }
-#unitySlide-Slide-04 .bcg{
+
+#unitySlide-Slide-04 .bcg {
     background-size: cover;
-    background-image: url('../img/city%2010%20night%20ssr%20testing.PNG');
+    background-image: url(../img/forest%2074.PNG);
 }
