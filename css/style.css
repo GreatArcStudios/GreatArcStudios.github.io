@@ -234,7 +234,18 @@ img.scrollDown:hover {
     background-color: #898989;
     opacity: .43;
 }
-
+.btn-info{
+    background-color: dimgrey;
+    width: 35%;
+    height: 40px;
+    font-size: 20px;
+}
+.btn-info:hover{
+    background-color: darkgrey;
+}
+.btn-info:active{
+    background-color: darkgrey;
+}
 #About-Slide .slideContent {
     min-height: 800px;
     text-align: center;
@@ -335,7 +346,7 @@ img.scrollDown:hover {
 
 #pauseMenu-Slide-4 .bcg {
     background-size: cover;
-    background-image: url(../img/code.PNG);
+    background-image: url(../img/Pause%20Menu%20Banner.png);
 }
 
 .unitySlide {
@@ -378,4 +389,12 @@ img.scrollDown:hover {
 #unitySlide-Slide-04 .bcg {
     background-size: cover;
     background-image: url(../img/forest%2074.PNG);
+}
+#panel{
+    margin: 10px;
+    background-color: #505050;
+    border-radius: 4px;
+}
+#academics{
+    border: 4px;
 }
