@@ -1,7 +1,9 @@
 ::-webkit-scrollbar {
     display: none;
 }
-
+ul{
+    list-style: square
+}
 .underConstructionHeader {
     font-family: 'Roboto', sans-serif;
     font-size: 100px;
@@ -9,14 +11,16 @@
     text-shadow: 1px 1px 8px #d3d3d3;
     text-decoration-color: -color: #FFF;
 }
-.underConstructionText{
+
+.underConstructionText {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     color: white;
     text-shadow: 1px 1px 8px #d3d3d3;
     text-decoration-color: -color: #FFF;
 }
-.underConstructionFooter{
+
+.underConstructionFooter {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: white;
@@ -26,17 +30,20 @@
     bottom: 0;
     width: 100%;
 }
-.underConstructionContainer{
+
+.underConstructionContainer {
     position: fixed;
     bottom: 50%;
-    width:100%;
+    width: 100%;
 }
-.underConstructionBG{
+
+.underConstructionBG {
     background-color: black;
     height: 100%;
     width: 100%;
     overflow: hidden;
 }
+
 .footerGithubConst {
     padding-bottom: 2.2px;
     width: 64px;
@@ -48,6 +55,7 @@
     width: 44px;
     height: 44px;
 }
+
 
 /*http://www.wearesicc.com/quick-tips-5-column-layout-with-twitter-bootstrap/ Elegant solution for creating a column with 5 items*/
 
@@ -178,7 +186,7 @@ p {
     border-radius: 5px;
     max-height: 100%;
     max-width: 100%;
-    box-shadow: 1px 0 10px #d3d3d3;
+    /*box-shadow: 1px 0 10px #d3d3d3;*/
 }
 
 .text:hover {
@@ -249,7 +257,7 @@ p {
 }
 
 .landingSlide {
-    margin-top: 150px;
+    margin-top: 30%;
     vertical-align: center;
 }
 
@@ -350,8 +358,8 @@ img.scrollDown:hover {
 #idea3,
 #idea4,
 #idea5 {
-    width: 184px;
-    height: 235.52px;
+    width: 200px;
+    height: inherit;
 }
 
 #pic1 {
@@ -378,7 +386,10 @@ img.scrollDown:hover {
     padding-left: inherit;
     height: inherit;
 }
-
+#pic6 {
+    padding-left: inherit;
+    height: inherit;
+}
 #academics {
     text-align: left;
 }
@@ -412,7 +423,7 @@ img.scrollDown:hover {
 
 #graphicDesign-Slide-7 .bcg {
     background-size: contain;
-    background-image: url(../img/Good%20Stuff%20white.png);
+    background-image: url(../img/typographic%20puma.png);
 }
 
 .pauseMenuSlide {
@@ -423,23 +434,23 @@ img.scrollDown:hover {
 }
 
 #pauseMenu-Slide-1 .bcg {
-    background-size: cover;
-    background-image: url(../img/Pause%20menu%206.PNG);
+    background-size: contain;
+    background-image: url(../img/Pause%20Menu%20Banner.png);
 }
 
 #pauseMenu-Slide-2 .bcg {
-    background-size: cover;
-    background-image: url(../img/Audio%20panel.gif);
+    background-size: contain;
+    background-image: url(../img/github.png);
 }
 
 #pauseMenu-Slide-3 .bcg {
     background-size: cover;
-    background-image: url(../img/video%20panel.gif);
+    background-image: url(../img/5%20star%20rating.png);
 }
 
 #pauseMenu-Slide-4 .bcg {
     background-size: cover;
-    background-image: url(../img/Pause%20Menu%20Banner.png);
+    background-image: url(../img/Users.png);
 }
 
 .unitySlide {
@@ -489,7 +500,43 @@ img.scrollDown:hover {
     background-color: #505050;
     border-radius: 4px;
 }
-
+.equatorMusic{
+    width: inherit;
+    margin-top: 50px;
+    height: 100%;
+    position: relative;
+}
+#equatorMusic-Slide-1 .bcg{
+    background-size: cover; 
+    background-image: url(../img/Desktop%20HD.png)
+}
+#equatorMusic-Slide-2 .bcg {
+    background-size: contain;
+    background-image: url(../img/Equator%20Concept%2012-31-16.png);
+}
+#equatorMusic-Slide-3 .bcg {
+    background-size: auto;
+    background-image: url(../img/Equator%20logo%20.png);
+}
+#equatorMusic-Slide-4 .bcg {
+    background-size: auto;
+    background-image: url(../img/equator%20ui.PNG);
+}
 #academics {
-    border: 4px;
+    width: inherit;
+    margin-top: 50px;
+    height: 100%;
+    position: relative;
+}
+#academics-Slide-1 .bcg {
+    background-size: contain;
+    background-image: url(../img/Equator%20logo%20.png);
+}
+#academics-Slide-2 .bcg {
+    background-size: contain;
+    background-image: url(../img/Equator%20Concept%2012-31-16.png);
+}
+#academics-Slide-3 .bcg {
+    background-size: contain;
+    background-image: url(../img/Equator%20Concept%2012-31-16.png);
 }
