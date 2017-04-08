@@ -519,7 +519,7 @@ img.scrollDown:hover {
     background-image: url(../img/Equator%20logo%20.png);
 }
 #equatorMusic-Slide-4 .bcg {
-    background-size: auto;
+    background-size: contain;
     background-image: url(../img/equator%20ui.PNG);
 }
 #academics {
