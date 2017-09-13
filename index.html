@@ -21,6 +21,7 @@
     <div id="skrollr-body" style="height:100%">
         <div class="site-wrapper">
             <div class="site-wrapper-inner" style="vertical-align: top;">
+
                 <div class="cover-container">
                     <div class="masthead">
                         <div class="inner masthead-style">
@@ -43,7 +44,7 @@
                         </div>
                     </div>
                     <section class="landingSlide" id="Landing-Slide">
-                        <video autoplay loop class="bg-vid">
+                        <video autoplay loop class="bg-vid" id="backgroundVid">
                             <source src="video/AudioSpectrumTrimmed.mp4" type="video/mp4" />
                             <div style="background-color: #000; height: inherit; width: inherit;"></div>
                         </video>
@@ -407,6 +408,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                        </div>
                                                     </section>
                                                     <section class="equatorMusic" id="equatorMusic-Slide-2">
                                                         <div class="bcg" data-anchor-target="#equatorMusic-Slide-2">
@@ -435,6 +437,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                        </div>
                                                     </section>
                                                          <section class="equatorMusic" id="equatorMusic-Slide-4">
                                                         <div class="bcg" data-anchor-target="#equatorMusic-Slide-4">
@@ -449,7 +452,9 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                    </section>
+                                                        </div>
+
+                                                         </section>
                                                     </div>
                                                     </div>
                                         </li>
@@ -538,9 +543,20 @@
                     </section>
                     <div class="mastfoot">
                                                                                     <div class="inner">
-                                                                                        <p>© Eric Zhu 2017</p>
+                                                                                        <div class="row">
+                                                                                            <div class="col-lg-12"
+                                                                                                 style="text-align: center">
+                                                                                                <div class="muteVideo">
+                                                                                                    <img src="img/volume.png"
+                                                                                                         onclick="mute()">
+                                                                                                </div>
+                                                                                                <p style="margin-right: 60px">
+                                                                                                    © Eric Zhu 2017</p>
+                                                                                            </div>
+                                                                                        </div>
                                                                                     </div>
-                                </div>            
+
+                    </div>
                     <!--
 <div class = "row"> 
                                                                                         <div class = "containter" style="bottom:0; margin-top: 100px;">
@@ -643,6 +659,18 @@ data-center="opacity: 1" data-anchor-target="#About-Slide #about">
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
     ga('create', 'UA-76169908-1', 'auto');
     ga('send', 'pageview');
+    var audioVisualizerVideo = document.getElementById("backgroundVid");
+    var muted = false;
+
+    function mute() {
+        if (muted) {
+            muted = false;
+            audioVisualizerVideo.volume = 1;
+        } else {
+            muted = true;
+            audioVisualizerVideo.volume = 0;
+        }
+    }
 </script>
 
 </html>

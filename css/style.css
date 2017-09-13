@@ -540,3 +540,17 @@ img.scrollDown:hover {
     background-size: contain;
     background-image: url(../img/Equator%20Concept%2012-31-16.png);
 }
+
+.muteVideo {
+    float: left;
+}
+
+.muteVideo img {
+    width: 32px;
+    height: 32px;
+    opacity: 0.8;
+}
+
+.muteVideo img:hover {
+    opacity: 1;
+}
