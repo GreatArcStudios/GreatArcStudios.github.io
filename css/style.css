@@ -1,9 +1,18 @@
 ::-webkit-scrollbar {
     display: none;
 }
-ul{
+
+:root {
+    --hover-width: 80%;
+    --other-width: 10%;
+    --expand-width: 100%;
+    --closed-width: 0%;
+}
+
+ul {
     list-style: square
 }
+
 .underConstructionHeader {
     font-family: 'Roboto', sans-serif;
     font-size: 100px;
@@ -56,13 +65,7 @@ ul{
     height: 44px;
 }
 
-
-/*http://www.wearesicc.com/quick-tips-5-column-layout-with-twitter-bootstrap/ Elegant solution for creating a column with 5 items*/
-
-.col-xs-15,
-.col-sm-15,
-.col-md-15,
-.col-lg-15 {
+.col-xs-15, .col-sm-15, .col-md-15, .col-lg-15 {
     position: relative;
     min-height: 1px;
     padding-right: 10px;
@@ -186,7 +189,6 @@ p {
     border-radius: 5px;
     max-height: 100%;
     max-width: 100%;
-    /*box-shadow: 1px 0 10px #d3d3d3;*/
 }
 
 .text:hover {
@@ -353,11 +355,7 @@ img.scrollDown:hover {
     background-image: url(/img/code.PNG);
 }
 
-#idea1,
-#idea2,
-#idea3,
-#idea4,
-#idea5 {
+#idea1, #idea2, #idea3, #idea4, #idea5 {
     width: 200px;
     height: inherit;
 }
@@ -386,73 +384,63 @@ img.scrollDown:hover {
     padding-left: inherit;
     height: inherit;
 }
+
 #pic6 {
     padding-left: inherit;
     height: inherit;
 }
+
 #academics {
     text-align: left;
 }
 
-#graphicDesign-Slide-1 .bcg {
-    background-image: url(../img/misty%20pountains.png);
-}
-
-#graphicDesign-Slide-2 .bcg {
-    background-image: url(../img/Postcard%20extra%20credit.png);
-}
-
-#graphicDesign-Slide-3 .bcg {
-    background-image: url(../img/Dragon.png);
-}
-
-#graphicDesign-Slide-4 .bcg {
-    background-size: cover;
-    background-image: url(../img/new%20horizons%20logo.png);
-}
-
-#graphicDesign-Slide-5 .bcg {
-    background-size: cover;
-    background-image: url(../img/Great%20Arc%20Studios%20logo.png);
-}
-
-#graphicDesign-Slide-6 .bcg {
-    background-size: contain;
-    background-image: url(../img/Playing%20Card3-03.png);
-}
-
-#graphicDesign-Slide-7 .bcg {
-    background-size: contain;
-    background-image: url(../img/typographic%20puma.png);
-}
-
-.pauseMenuSlide {
-    width: inherit;
-    margin-top: 50px;
-    height: 100%;
-    position: relative;
-}
-
-#pauseMenu-Slide-1 .bcg {
-    background-size: contain;
-    background-image: url(../img/Pause%20Menu%20Banner.png);
-}
-
-#pauseMenu-Slide-2 .bcg {
-    background-size: contain;
-    background-image: url(../img/github.png);
-}
-
-#pauseMenu-Slide-3 .bcg {
-    background-size: cover;
-    background-image: url(../img/5%20star%20rating.png);
-}
-
-#pauseMenu-Slide-4 .bcg {
-    background-size: cover;
-    background-image: url(../img/Users.png);
-}
-
+/*#graphicDesign-Slide-1 .bcg {*/
+/*background-image: url(../img/misty%20pountains.png);*/
+/*}*/
+/*#graphicDesign-Slide-2 .bcg {*/
+/*background-image: url(../img/Postcard%20extra%20credit.png);*/
+/*}*/
+/*#graphicDesign-Slide-3 .bcg {*/
+/*background-image: url(../img/Dragon.png);*/
+/*}*/
+/*#graphicDesign-Slide-4 .bcg {*/
+/*background-size: cover;*/
+/*background-image: url(../img/new%20horizons%20logo.png);*/
+/*}*/
+/*#graphicDesign-Slide-5 .bcg {*/
+/*background-size: cover;*/
+/*background-image: url(../img/Great%20Arc%20Studios%20logo.png);*/
+/*}*/
+/*#graphicDesign-Slide-6 .bcg {*/
+/*background-size: contain;*/
+/*background-image: url(../img/Playing%20Card3-03.png);*/
+/*}*/
+/*#graphicDesign-Slide-7 .bcg {*/
+/*background-size: contain;*/
+/*background-image: url(../img/typographic%20puma.png);*/
+/*}*/
+/*.pauseMenuSlide {*/
+/*width: inherit;*/
+/*margin-top: 50px;*/
+/*height: 100%;*/
+/*position: relative;*/
+/*}*/
+/*#pauseMenu-Slide-1 .bcg {*/
+/*background-size: contain;*/
+/*background-image: url(../img/Pause%20Menu%20Banner.png);*/
+/*}*/
+/*#pauseMenu-Slide-2 .bcg {*/
+/*background-size: contain;*/
+/*background-image: url(../img/github.png);*/
+/*}*/
+/*#pauseMenu-Slide-3 .bcg {*/
+/*background-size: cover;*/
+/*background-image: url(../img/5%20star%20rating.png);*/
+/*}*/
+/*#pauseMenu-Slide-4 .bcg {*/
+/*background-size: cover;*/
+/*background-image: url(../img/Users.png);*/
+/*}*/
 .unitySlide {
     width: inherit;
     margin-top: 50px;
@@ -460,87 +448,81 @@ img.scrollDown:hover {
     position: relative;
 }
 
-#unitySlide-Slide-05 .bcg {
-    background-size: cover;
-    background-image: url(../img/Audio%20Visualizer.PNG);
-}
-
-#unitySlide-Slide-06 .bcg {
-    background-size: cover;
-    background-image: url(../img/Audio%20Visualizer%203.PNG);
-}
-
-#unitySlide-Slide-07 .bcg {
-    background-size: cover;
-    background-image: url(../img/Audio%20visualizer%202.PNG);
-}
-
-#unitySlide-Slide-01 .bcg {
-    background-size: cover;
-    background-image: url(../img/new%20horizons%20logo.png);
-}
-
-#unitySlide-Slide-02 .bcg {
-    background-size: cover;
-    background-image: url(../img/Island%20beach%2043.PNG);
-}
-
-#unitySlide-Slide-03 .bcg {
-    background-size: cover;
-    background-image: url(../img/Island%20beach%2044.PNG);
-}
-
-#unitySlide-Slide-04 .bcg {
-    background-size: cover;
-    background-image: url(../img/forest%2074.PNG);
-}
-
+/*#unitySlide-Slide-05 .bcg {*/
+/*background-size: cover;*/
+/*background-image: url(../img/Audio%20Visualizer.PNG);*/
+/*}*/
+/*#unitySlide-Slide-06 .bcg {*/
+/*background-size: cover;*/
+/*background-image: url(../img/Audio%20Visualizer%203.PNG);*/
+/*}*/
+/*#unitySlide-Slide-07 .bcg {*/
+/*background-size: cover;*/
+/*background-image: url(../img/Audio%20visualizer%202.PNG);*/
+/*}*/
+/*#unitySlide-Slide-01 .bcg {*/
+/*background-size: cover;*/
+/*background-image: url(../img/new%20horizons%20logo.png);*/
+/*}*/
+/*#unitySlide-Slide-02 .bcg {*/
+/*background-size: cover;*/
+/*background-image: url(../img/Island%20beach%2043.PNG);*/
+/*}*/
+/*#unitySlide-Slide-03 .bcg {*/
+/*background-size: cover;*/
+/*background-image: url(../img/Island%20beach%2044.PNG);*/
+/*}*/
+/*#unitySlide-Slide-04 .bcg {*/
+/*background-size: cover;*/
+/*background-image: url(../img/forest%2074.PNG);*/
+/*}*/
 #panel {
     margin: 10px;
     background-color: #505050;
     border-radius: 4px;
 }
-.equatorMusic{
+
+.equatorMusic {
     width: inherit;
     margin-top: 50px;
     height: 100%;
     position: relative;
 }
-#equatorMusic-Slide-1 .bcg{
-    background-size: cover; 
-    background-image: url(../img/Desktop%20HD.png)
-}
-#equatorMusic-Slide-2 .bcg {
-    background-size: contain;
-    background-image: url(../img/Equator%20Concept%2012-31-16.png);
-}
-#equatorMusic-Slide-3 .bcg {
-    background-size: auto;
-    background-image: url(../img/Equator%20logo%20.png);
-}
-#equatorMusic-Slide-4 .bcg {
-    background-size: contain;
-    background-image: url(../img/equator%20ui.PNG);
-}
+
+/*#equatorMusic-Slide-1 .bcg {*/
+/*background-size: cover;*/
+/*background-image: url(../img/Desktop%20HD.png)}*/
+/*#equatorMusic-Slide-2 .bcg {*/
+/*background-size: contain;*/
+/*background-image: url(../img/Equator%20Concept%2012-31-16.png);*/
+/*}*/
+/*#equatorMusic-Slide-3 .bcg {*/
+/*background-size: auto;*/
+/*background-image: url(../img/Equator%20logo%20.png);*/
+/*}*/
+/*#equatorMusic-Slide-4 .bcg {*/
+/*background-size: contain;*/
+/*background-image: url(../img/equator%20ui.PNG);*/
+/*}*/
 #academics {
     width: inherit;
     margin-top: 50px;
     height: 100%;
     position: relative;
 }
-#academics-Slide-1 .bcg {
-    background-size: contain;
-    background-image: url(../img/Equator%20logo%20.png);
-}
-#academics-Slide-2 .bcg {
-    background-size: contain;
-    background-image: url(../img/Equator%20Concept%2012-31-16.png);
-}
-#academics-Slide-3 .bcg {
-    background-size: contain;
-    background-image: url(../img/Equator%20Concept%2012-31-16.png);
-}
 
+/*#academics-Slide-1 .bcg {*/
+/*background-size: contain;*/
+/*background-image: url(../img/Equator%20logo%20.png);*/
+/*}*/
+/*#academics-Slide-2 .bcg {*/
+/*background-size: contain;*/
+/*background-image: url(../img/Equator%20Concept%2012-31-16.png);*/
+/*}*/
+/*#academics-Slide-3 .bcg {*/
+/*background-size: contain;*/
+/*background-image: url(../img/Equator%20Concept%2012-31-16.png);*/
+/*}*/
 .muteVideo {
     float: left;
 }
@@ -553,4 +535,129 @@ img.scrollDown:hover {
 
 .muteVideo img:hover {
     opacity: 1;
+}
+
+.overlay-top {
+    position: absolute;
+    left: 15%;
+    top: 0;
+    z-index: 20;
+}
+
+.overlay-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    z-index: 20;
+}
+
+/*#about-box{*/
+/*position:absolute;*/
+/*width: 40%;*/
+/*height: 200px;*/
+/*background-color: white;*/
+/*bottom: 40px;*/
+/*left: 27%;*/
+/*z-index: 20;*/
+/*border-radius: 4px;*/
+/*padding: 10px;*/
+/*}*/
+
+/*#about-box::before{*/
+/*border: 3px solid #fff;*/
+/*}*/
+
+/*#about-box .col, a{*/
+/*color: black;*/
+/*}*/
+
+/*#about-header{*/
+/*position: relative;*/
+/*left: 50%;*/
+/*font-weight: bold;*/
+/*color: black;*/
+/*}*/
+
+/*#resume-download{*/
+/*text-decoration: underline;*/
+/*}*/
+
+.content, .resume-label, .middle-label {
+    -webkit-transition: width 0.5s, font-size 0.5s, transform 0.5s, opacity 0.5s;
+    transition: width 0.5s, font-size 0.5s, transform 0.5s, opacity 0.5s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.content {
+    width: 33.333333%;
+    width: calc(100% / 3);
+    height: 100%;
+    position: relative;
+}
+
+#design {
+    background-color: black;
+    justify-content: center;
+}
+
+#main {
+    height: 100vh;
+    text-align: center;
+}
+
+#code {
+    color: black;
+    background-color: white;
+}
+
+#about {
+    background-color: #245269;
+}
+
+.expand {
+    width: var(--hover-width);
+    font-size: 300%;
+}
+
+.expand p {
+    font-weight: 800;
+}
+
+.expand > p.resume-label {
+    font-size: 180%;
+    font-weight: 300;
+}
+
+.minimize {
+    width: var(--other-width);
+}
+
+.middle-label {
+    top: 50%;
+    position: relative;
+    font-size: 200%;
+}
+
+.middle-label:hover {
+    text-decoration: underline;
+}
+
+.resume-label {
+    top: 50%;
+    position: relative;
+    font-size: 150%;
+}
+
+.full-expand {
+    width: var(--expand-width);
+}
+
+.full-expand > p.middle-label, .full-expand > p.resume-label, .full-expand > a.resume-download {
+    transform: scale3d(0.8, 0.8, 0.05);
+    opacity: 0;
+}
+
+.full-minimize {
+    width: var(--closed-width);
 }
