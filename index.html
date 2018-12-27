@@ -1,29 +1,258 @@
 <!DOCTYPE html>
-<html lang=en>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
     <title>Eric Zhu</title>
     <link rel="icon" type="image/png" href="img/Eric%20Zhu%20programmer-03.png">
     <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="css/cover.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/overlay.css" media="all" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.1/modernizr.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="css/cover.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/7347984bb2.js"></script>
+
 </head>
+<body>
+<div class="container-fluid">
+    <div id="main" class="row align-items-center">
+        <div class="overlay-top">
+            <div class="inner masthead-style">
+                <h3 class="masthead-brand" style=" font-size: 40px; font-weight: bold;">Eric Zhu</h3>
+                <nav>
+                    <ul class="nav masthead-nav">
+                        <li>
+                            <a href="https://github.com/GreatArcStudios"> <i class="fa fa-github fa-lg"
+                                                                             aria-hidden="true"></i> </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/GArcStudios"> <i class="fa fa-twitter-square fa-lg"
+                                                                          aria-hidden="true"></i> </a>
+                        </li>
+                        <li>
+                            <a href="mailto: ericz2241@gmail.com"> <i class="fa fa-envelope fa-lg"
+                                                                      aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
-<body class="underConstructionBG">
-    <div class="underConstructionContainer">
-        <h1 class="underConstructionHeader">My website is being rebuilt.</h1>
-        <h3 class="underConstructionText">For now check out my social media or download my <a
-                href="/files/Resume.pdf"><u>resume</u></a>.</h3>
-        <a href="https://github.com/GreatArcStudios"> <img src="img/github.png" class="footerIcons footerGithubConst"> </a>
-         <a href="https://twitter.com/GArcStudios" style = "padding-left: 20px;"> <img src="img/twitter-512.png" class="footerTwitterConst footerIcons"> </a>
-        <p class = "underConstructionFooter">© Eric Zhu 2018</p>
+        <div id="design" class="content">
+            <p class="middle-label">Design</p>
+        </div>
+        <div id="code" class="content">
+            <p class="middle-label">Code</p>
+        </div>
+        <div id="about" class="content">
+            <p class="middle-label">About</p>
+            <p class="resume-label"> Download my <a class="resume-download" href="files/Resume.pdf">resume</a></p>
+        </div>
+        <div id="design-box">
+            <div id="close-design" class="close-container">
+                <div class="close-right"></div>
+                <div class="close-left"></div>
+                <p>CLOSE</p>
+            </div>
+            <div id="dslide-intro" class="parallax slide">
+                <div class="sintro-content">
+                    <h1>Design</h1>
+                    <h3>Scroll down to see my graphic design work.</h3>
+                </div>
+            </div>
+            <div id="dslide-ui" class="parallax slide container-fluid">
+                <div class="slide-content row">
+                    <div class="col-md">
+                        <img id="dslide-ui-img" class="slide-image" src="img/dslide-ui.png">
+                    </div>
+                    <div class="slide-description col-md-4">
+                        <h1>UI Design</h1>
+                        <p>The example is the UI of Equator Music, a Youtube music player. I created the UI design using
+                            Sketch along the various states (showing playlists or songs) and icons for the project.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="dslide-logo" class="parallax slide">
+                <div class="slide-content row">
+                    <div class="slide-description col-md-4">
+                        <h1>Logo Design</h1>
+                        <p>The example is the Equator Music logo. I generally design logos in Sketch, but have also
+                            designed various logos in Illustrator. Check out my other logos by checking out my other
+                            projects!</p>
+                    </div>
+                    <div class="col-md">
+                        <img id="dslide-logo-img" class="slide-image" src="img/dslide-logo.png">
+                    </div>
+                </div>
+            </div>
+            <div id="dslide-mountains" class="parallax slide">
+                <div class="slide-content row">
+                    <div class="col-md">
+                        <img id="dslide-mountains-img" class="slide-image" src="img/misty%20pountains.png">
+                    </div>
+                    <div class="slide-description col-md-4">
+                        <h1>Misty Mountains</h1>
+                        <p>This was a school project that I created in Photoshop with a heavy use of blend modes. The
+                            criteria was to create an image that could go along with a haiku.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="dslide-playing-cards" class="parallax slide">
+                <div class="slide-content row">
+                    <div class="slide-description col-md-4">
+                        <h1>Playing Cards</h1>
+                        <p>This was a quick school project made in Illustrator with the concept of modern yet authentic
+                            "Gills Sans" playing cards in mind.</p>
+                    </div>
+                    <div class="col-md">
+                        <img id="dslide-playing-cards-img" class="slide-image" src="img/dslide-cards.png">
+                    </div>
+                </div>
+            </div>
+            <div id="dslide-puma" class="parallax slide">
+                <div class="slide-content row">
+                    <div class="col-md">
+                        <img id="dslide-puma-img" class="slide-image" src="img/dslide-puma.png">
+                    </div>
+                    <div class="slide-description col-md-4">
+                        <h1>Typographic Puma</h1>
+                        <p>This was a school project made in Illustrator using words/letters to create an image of a
+                            puma.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="dslide-dandelion" class="parallax slide">
+                <div class="slide-content row">
+                    <div class="slide-description col-md-4">
+                        <h1>Dandelion</h1>
+                        <p>This was a picture I retouched in Photoshop mainly using color curves.</p>
+                    </div>
+                    <div class="col-md">
+                        <img id="dslide-danelion-img" class="slide-image" src="img/dandelion.jpg">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="code-box">
+            <div id="close-code" class="close-container">
+                <div class="close-right"></div>
+                <div class="close-left"></div>
+                <p>CLOSE</p>
+            </div>
+            <div id="cslide-intro" class="parallax slide">
+                <div class="sintro-content">
+                    <h1>Code</h1>
+                    <h3>Scroll down to see my projects.</h3>
+                    <p>(This cover image is a very loose metaphor for computing projects)</p>
+                </div>
+            </div>
+            <div id="cslide-equator" class="parallax slide container-fluid">
+                <div class="slide-content row">
+                    <div class="col-md">
+                        <img id="cslide-equator-img" class="slide-image" src="img/cslide-equator.png">
+                    </div>
+                    <div class="slide-description col-md-4">
+                        <h1>Equator Music</h1>
+                        <p>A simplistic Youtube music player created in Visual Studio and C# using the .NET framework
+                            along with the Youtube/Google API. I put a heavy emphasis on usability through the card
+                            design, along with attractiveness through various UI effects created in the pre fluent
+                            design era. </p>
+                        <p>Check out the project page <a href="https://greatarcstudios.github.io/Equator-site/">here</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="cslide-pausemenu" class="parallax slide container-fluid">
+                <div class="slide-content row">
+                    <div class="slide-description col-md-4">
+                        <h1>Open Source Pause Menu</h1>
+                        <p>A robust open source pause menu for Unity3d that controls and saves relevant video and audio
+                            settings. It currently has over 6000 users and a 5 star rating on the asset store.</p>
+                        <p>Check out the project page <a
+                                href="https://github.com/GreatArcStudios/unitypausemenu">here</a>.</p>
+                    </div>
+                    <div class="col-md">
+                        <img id="cslide-pause-users-img" class="slide-image col" src="img/cslide-users.png">
+                    </div>
+                </div>
+            </div>
+            <div id="cslide-udocugen" class="parallax slide container-fluid">
+                <div class="slide-content row">
+                    <div class="col-md">
+                        <h1 class="slide-image-replacer">uDocuGen</h1>
+                    </div>
+                    <div class="slide-description col-md-4">
+                        <p>A documentation generator created for Unity3d at Hack the North 2018 with <a
+                                href="https://github.com/jantepya">jantepya</a>. It takes the user's code files and
+                            generates a responsive website organized by the classes in the code files.</p>
+                        <p>Check out the project page <a href="https://github.com/jantepya/uDocuGen">here</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about-box">
+            <div id="close-about" class="close-container">
+                <div class="close-right"></div>
+                <div class="close-left"></div>
+                <p>CLOSE</p>
+            </div>
+            <div id="about-header">
+                About me.
+            </div>
+            <div class="row about-content">
+                <div class="col">
+                    I'm a student developer and designer studying at the University of Toronto, and originally from
+                    Boston. My
+                    interests include machine learning, data science, UI/UX design, graphic design, and
+                    CG
+                    graphics.
+                </div>
+                <div class="col">
+                    In my free time I love creating tools that make lives easier: the aim of my personal
+                    projects. Besides computing, I love travelling, exploring, and taking pictures (the cover image is a
+                    picture I took from the Banff National Park).
+                </div>
+            </div>
+            <hr class="separator">
+            <div class="row about-content about-resume">
+                <div class="col">Download my resume <a class="resume-download" href="files/Resume.pdf">here</a>.
+                </div>
+            </div>
+            <div class="row about-content about-sm">
+                <div>
+                    <nav>
+                        <ul class="nav masthead-nav">
+                            <li>
+                                <a href="https://github.com/GreatArcStudios"> <i class="fa fa-github fa-lg"
+                                                                                 aria-hidden="true"></i> </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/GArcStudios"> <i class="fa fa-twitter-square fa-lg"
+                                                                              aria-hidden="true"></i> </a>
+                            </li>
+                            <li>
+                                <a href="mailto: ericz2241@gmail.com"> <i class="fa fa-envelope fa-lg"
+                                                                          aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="overlay-bottom">
+            <p>© Eric Zhu 2018</p>
+        </div>
+
     </div>
-
+</div>
 </body>
+<footer>
+    <script src="js/script.min.js"></script>
+</footer>
+</html>
