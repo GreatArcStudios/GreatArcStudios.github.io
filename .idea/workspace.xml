@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/img/dandelion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dslide-mountains.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-cover.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/about-cover.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/dandelion.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/dslide-puma.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/dslide-puma.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/misty pountains.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,14 +24,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="721">
+              <caret line="123" column="26" lean-forward="true" selection-start-line="123" selection-start-column="26" selection-end-line="123" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -72,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="708" column="19" selection-start-line="708" selection-start-column="19" selection-end-line="708" selection-end-column="19" />
+            <state relative-caret-position="6695">
+              <caret line="881" column="22" selection-end-line="913" />
             </state>
           </provider>
         </entry>
@@ -99,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="8326" selection-start-column="8326" selection-end-column="8326" />
+              <caret column="8325" selection-start-column="8325" selection-end-column="8325" />
             </state>
           </provider>
         </entry>
@@ -126,9 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>about-</find>
-      <find>text-align: center</find>
-      <find>1.1</find>
       <find>script.js</find>
       <find>about</find>
       <find>transfor</find>
@@ -139,7 +133,6 @@
       <find>resume-label</find>
       <find>blur</find>
       <find>design</find>
-      <find>#design</find>
       <find>close-con</find>
       <find>overlay-bott</find>
       <find>slide-</find>
@@ -155,7 +148,11 @@
       <find>about-content</find>
       <find>slide-image</find>
       <find>backg</find>
+      <find>andelion</find>
       <find>-color</find>
+      <find>#design</find>
+      <find>dslide-moun</find>
+      <find>misty</find>
     </findStrings>
     <replaceStrings>
       <replace>0.3</replace>
@@ -174,11 +171,11 @@
         <option value="$PROJECT_DIR$/js/particles.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/redo.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/css/cover.min.css" />
         <option value="$PROJECT_DIR$/js/script.min.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.min.css" />
       </list>
     </option>
   </component>
@@ -198,8 +195,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+    <option name="x" value="1662" />
+    <option name="y" value="214" />
     <option name="width" value="2764" />
     <option name="height" value="1488" />
   </component>
@@ -219,6 +216,12 @@
               <item name="GreatArcStudios.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="GreatArcStudios.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreatArcStudios.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreatArcStudios.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="style.css" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="GreatArcStudios.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -289,7 +292,7 @@
       <workItem from="1506011421172" duration="544000" />
       <workItem from="1545352875943" duration="29311000" />
       <workItem from="1545608952194" duration="44676000" />
-      <workItem from="1545782368476" duration="20741000" />
+      <workItem from="1545782368476" duration="21293000" />
     </task>
     <task id="LOCAL-00001" summary="Added mute button">
       <created>1505271904626</created>
@@ -326,11 +329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545883495346</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Optimized images">
+      <created>1545884166522</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545884166522</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98615000" />
+    <option name="totallyTimeSpent" value="99167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1633" height="1053" extended-state="6" />
@@ -369,7 +379,8 @@
     <MESSAGE value="commit newest resume" />
     <MESSAGE value="Finished redesign" />
     <MESSAGE value="Add dandelion cover image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add dandelion cover image" />
+    <MESSAGE value="Optimized images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized images" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -447,7 +458,7 @@
     <entry file="file://$PROJECT_DIR$/img/Landscape 4.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/misty pountains.png">
+    <entry file="file://$PROJECT_DIR$/img/dslide-mountains.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/new horizons logo.png">
@@ -536,13 +547,6 @@
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8326" selection-start-column="8326" selection-end-column="8326" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/old.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -583,14 +587,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="721">
+          <caret line="123" column="26" lean-forward="true" selection-start-line="123" selection-start-column="26" selection-end-line="123" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
@@ -598,8 +601,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="708" column="19" selection-start-line="708" selection-start-column="19" selection-end-line="708" selection-end-column="19" />
+        <state relative-caret-position="6695">
+          <caret line="881" column="22" selection-end-line="913" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8325" selection-start-column="8325" selection-end-column="8325" />
         </state>
       </provider>
     </entry>
