@@ -5,12 +5,16 @@
         <item url="file://$PROJECT_DIR$/js/script.min.js" />
         <item url="file://$PROJECT_DIR$/node_modules/cssmin/bin/cssmin.min.js" />
         <item url="file://$PROJECT_DIR$/node_modules/cssmin/cssmin.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/yuicompressor/nodejs/cli.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/yuicompressor/nodejs/index.min.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/js/script.min.js" />
       <root url="file://$PROJECT_DIR$/node_modules/cssmin/bin/cssmin.min.js" />
       <root url="file://$PROJECT_DIR$/node_modules/cssmin/cssmin.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/yuicompressor/nodejs/cli.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/yuicompressor/nodejs/index.min.js" />
     </CLASSES>
     <SOURCES />
   </library>

@@ -859,7 +859,7 @@ img.scrollDown:hover {
 
 .slide-content {
     height: inherit;
-    width: inherit;
+    width: 100%;
     align-items: center;
     padding-left: 5%;
     padding-right: 5%;
