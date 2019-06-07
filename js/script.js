@@ -1,5 +1,15 @@
 var sections = [$("#code"), $("#design"), $("#about"), $(".overlay-top")];
 
+
+$(window).on('load', function () {
+    setTimeout(removeLoader, 2000);
+});
+
+function removeLoader() {
+    $("#loading").fadeOut(500, function () {
+        $("#loading").remove();
+    });
+}
 $(document).ready(function () {
     $("#about").click(function () {
         $("#about-box").css("z-index", 20);
@@ -20,7 +30,7 @@ $(document).ready(function () {
         $("#about-box").promise().done(
             function () {
                 $("#about-box").css("z-index", -10);
-                for (let i = 0; i < sections.length; i++) {
+                for (i = 0; i < sections.length; i++) {
                     if (i == 2) {
                         sections[i].removeClass("full-expand");
                     } else {
@@ -57,7 +67,7 @@ $(document).ready(function () {
         $("#code-box").promise().done(
             function () {
                 $("#code-box").css("z-index", -10);
-                for (let i = 0; i < sections.length; i++) {
+                for (i = 0; i < sections.length; i++) {
                     if (i == 0) {
                         sections[i].removeClass("full-expand");
                         sections[0].css("position", "");
@@ -98,7 +108,7 @@ $(document).ready(function () {
         $("#design-box").promise().done(
             function () {
                 $("#design-box").css("z-index", -10);
-                for (let i = 0; i < sections.length; i++) {
+                for (i = 0; i < sections.length; i++) {
                     if (i == 1) {
                         sections[i].removeClass("full-expand");
                         sections[1].css("position", "");
@@ -124,7 +134,7 @@ frontElements = [code, design, about, overlayTop];
 
 
 code.addEventListener("mouseenter", () => {
-    for (let i = 2; i >= 0; i--) {
+    for (i = 2; i >= 0; i--) {
         if (Object.is(frontElements[i], code)) {
             frontElements[i].classList.add("expand");
         } else {
@@ -144,7 +154,7 @@ code.addEventListener("mouseleave", () => {
 });
 
 code.addEventListener("click", () => {
-    for (let i = 0; i < frontElements.length; i++) {
+    for (i = 0; i < frontElements.length; i++) {
         if (Object.is(frontElements[i], code)) {
             frontElements[i].classList.remove("expand");
             frontElements[i].classList.add("full-expand");
@@ -156,7 +166,7 @@ code.addEventListener("click", () => {
 });
 
 design.addEventListener("mouseenter", () => {
-    for (let i = 0; i < frontElements.length - 1; i++) {
+    for (i = 0; i < frontElements.length - 1; i++) {
         if (Object.is(frontElements[i], design)) {
             frontElements[i].classList.add("expand");
         } else {
@@ -176,7 +186,7 @@ design.addEventListener("mouseleave", () => {
 });
 
 design.addEventListener("click", () => {
-    for (let i = 0; i < frontElements.length; i++) {
+    for (i = 0; i < frontElements.length; i++) {
         if (Object.is(frontElements[i], design)) {
             frontElements[i].classList.add("full-expand");
             frontElements[i].classList.remove("expand");
@@ -199,7 +209,7 @@ about.addEventListener("mouseenter", () => {
 });
 
 about.addEventListener("mouseleave", () => {
-    for (let i = 0; i < frontElements.length - 1; i++) {
+    for (i = 0; i < frontElements.length - 1; i++) {
         if (Object.is(frontElements[i], about)) {
             frontElements[i].classList.remove("expand");
         } else {
@@ -209,7 +219,7 @@ about.addEventListener("mouseleave", () => {
 });
 
 about.addEventListener("click", () => {
-    for (let i = 0; i < frontElements.length; i++) {
+    for (i = 0; i < frontElements.length; i++) {
         if (Object.is(frontElements[i], about)) {
             frontElements[i].classList.remove("expand");
             frontElements[i].classList.add("full-expand");
