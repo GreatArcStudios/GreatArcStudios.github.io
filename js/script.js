@@ -1,14 +1,16 @@
 var sections = [$("#code"), $("#design"), $("#about"), $(".overlay-top")];
 
 $(window).on('load', function () {
-    setTimeout(removeLoader, 2000);
+    setTimeout(removeLoader, 1250);
 });
 
 function removeLoader() {
     $("#loading").fadeOut(500, function () {
         $("#loading").remove();
     });
+    $("#main").animate({opacity: '1'}, 200);
 }
+
 $(document).ready(function () {
     $("#about").click(function () {
         $("#about-box").css("z-index", 20);

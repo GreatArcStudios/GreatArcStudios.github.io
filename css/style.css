@@ -85,6 +85,7 @@ ul {
 }
 body {
     font-family: 'Roboto', sans-serif;
+    background: #21252b;
 }
 p {
     font-family: inherit;
@@ -626,6 +627,7 @@ img.scrollDown:hover {
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-align-content: center;
+    overflow: hidden;
 }
 
 #about-box .col, a {
@@ -695,6 +697,7 @@ img.scrollDown:hover {
     text-align: center;
     overflow: hidden;
     text-shadow: 2px 3px 14px #383838;
+    opacity: 0;
 }
 #code {
     background: url(../img/dandelion.png) no-repeat top center;
@@ -838,6 +841,19 @@ img.scrollDown:hover {
     height: inherit;
     position: relative;
     z-index: 19;
+
+}
+
+.slide-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.slide-left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .sintro-content {
@@ -912,9 +928,42 @@ img.scrollDown:hover {
     width: 40%;
 }
 
+#cslide-uDG-img {
+    width: 40% !important;
+}
+
 #loading {
+    z-index: 1000 !important;
+    position: absolute !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#loading-image {
     background-image: url(../img/loading-image.JPG);
-    filter: blur(20px);
+    background-size: contain;
+    filter: blur(35px);
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    width: 200%;
+    height: 200%;
+    position: inherit;;
+}
+
+#loading-text {
+    position: fixed;
+    bottom: 37%;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Heebo', sans serif;
 }
 
 .loader,

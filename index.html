@@ -20,6 +20,7 @@
     <title>Eric Zhu</title>
     <link rel="icon" type="image/png" href="img/Eric%20Zhu%20programmer-03.png">
     <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -30,7 +31,13 @@
 
 </head>
 <body>
-
+<div id="loading">
+    <div id="loading-image"></div>
+    <div id="loading-text">
+        <h2>Loading</h2>
+    </div>
+    <div class="loader">Loading...></div>
+</div>
 <div class="container-fluid">
     <div id="main" class="row align-items-center">
         <div class="overlay-top">
@@ -165,7 +172,7 @@
                     <p>(This cover image is a very loose metaphor for computing projects)</p>
                 </div>
             </div>
-            <div id="cslide-equator" class="parallax slide container-fluid">
+            <div class="parallax slide container-fluid slide-right" id="cslide-equator">
                 <div class="slide-content row">
                     <div class="col-md">
                         <img id="cslide-equator-img" class="slide-image" src="img/cslide-equator.png">
@@ -181,7 +188,7 @@
                     </div>
                 </div>
             </div>
-            <div id="cslide-pausemenu" class="parallax slide container-fluid">
+            <div class="parallax slide container-fluid slide-left" id="cslide-pausemenu">
                 <div class="slide-content row">
                     <div class="slide-description col-md-4">
                         <h1>Open Source Pause Menu</h1>
@@ -195,7 +202,7 @@
                     </div>
                 </div>
             </div>
-            <div id="cslide-udocugen" class="parallax slide container-fluid">
+            <div class="parallax slide container-fluid slide-right" id="cslide-udocugen">
                 <div class="slide-content row">
                     <div class="col-md">
                         <h1 class="slide-image-replacer">uDocuGen</h1>
@@ -205,6 +212,21 @@
                                 href="https://github.com/jantepya">jantepya</a>. It takes the user's code files and
                             generates a responsive website organized by the classes in the code files.</p>
                         <p>Check out the project page <a href="https://github.com/jantepya/uDocuGen">here</a>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax slide container-fluid slide-left" id="cslide-uDG">
+                <div class="slide-content row">
+                    <div class="slide-description col-md-4">
+                        <h1>uDocumentGenerator</h1>
+                        <p>A robust open source pause menu for Unity3d that controls and saves relevant video and audio
+                            settings. It currently has over 6000 users and a 5 star rating on the asset store.</p>
+                        <p>Check out the product page <a
+                                href="https://github.com/GreatArcStudios/unitypausemenu">here</a>.</p>
+                    </div>
+                    <div class="col-md">
+                        <img class="slide-image col" id="cslide-uDG-img"
+                             onerror='this.onerror = null; this.src="img/uDGcolor.png"' src="img/uDGcolor.webp">
                     </div>
                 </div>
             </div>
@@ -265,9 +287,7 @@
 
     </div>
 </div>
-<div id="loading">
-    <div class="loader">Loading...</div>
-</div>
+
 </body>
 <footer>
     <script src="js/script.min.js"></script>
