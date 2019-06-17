@@ -1,6 +1,5 @@
 var sections = [$("#code"), $("#design"), $("#about"), $(".overlay-top")];
 
-
 $(window).on('load', function () {
     setTimeout(removeLoader, 2000);
 });

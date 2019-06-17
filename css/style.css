@@ -15,21 +15,21 @@ ul {
     font-size: 100px;
     color: white;
     text-shadow: 1px 1px 8px #d3d3d3;
-    text-decoration-color: -color: #FFF;
+    text-decoration-color: #FFF;
 }
 .underConstructionText {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     color: white;
     text-shadow: 1px 1px 8px #d3d3d3;
-    text-decoration-color: -color: #FFF;
+    text-decoration-color: #FFF;
 }
 .underConstructionFooter {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: white;
     text-shadow: 1px 1px 8px #d3d3d3;
-    text-decoration-color: -color: #FFF;
+    text-decoration-color: #FFF;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -94,7 +94,7 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 60px;
     font-weight: 400;
-    text-decoration-color: -color: #FFF;
+    text-decoration-color: #FFF;
     text-shadow: 1px 1px 8px #d3d3d3;
 }
 .footerGithub {
