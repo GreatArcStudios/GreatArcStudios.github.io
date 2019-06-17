@@ -959,7 +959,7 @@ img.scrollDown:hover {
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-family: 'Heebo', sans serif;
+    font-family: 'Heebo', sans-serif;
 }
 
 .loader,
