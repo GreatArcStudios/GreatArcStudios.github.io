@@ -928,10 +928,6 @@ img.scrollDown:hover {
     width: 40%;
 }
 
-#cslide-uDG-img {
-    width: 40% !important;
-}
-
 #loading {
     z-index: 1000 !important;
     position: absolute !important;
