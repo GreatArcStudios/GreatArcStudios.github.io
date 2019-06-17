@@ -634,18 +634,23 @@ img.scrollDown:hover {
     color: white;
 }
 
+a:hover {
+    font-weight: 400;
+}
+
 .about-content {
     padding-left: 7%;
     padding-right: 7%;
     font-size: 145%;
     text-align: initial;
+    font-weight: 100
 }
 
 #about-header {
     text-align: center;
     position: relative;
     left: 50%;
-    font-weight: 800;
+    font-weight: 300;
     color: white;
     font-size: 275%;
     transform: translate(-50%, -50%);
@@ -675,7 +680,8 @@ img.scrollDown:hover {
 #resume-download {
     text-decoration: underline;
 }
-.content, .resume-label, .middle-label {
+
+a, p, h1, h3, .content, .resume-label, .middle-label {
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
     transition-timing-function: ease-in-out;
@@ -716,15 +722,12 @@ img.scrollDown:hover {
     width: var(--hover-width);
     font-size: 225%;
 }
-.expand p {
-    font-weight: 800;
-}
+
 .expand > p.resume-label {
     font-size: 105%;
-    font-weight: 800;
     opacity: 1;
+    font-weight: 300;
 }
-
 .expand > p > a {
     text-decoration: underline;
 }
@@ -736,7 +739,7 @@ img.scrollDown:hover {
     top: 50%;
     position: relative;
     font-size: 275%;
-    font-weight: 600;
+    font-weight: 300;
 }
 .middle-label:hover {
     text-decoration: underline;
@@ -785,7 +788,7 @@ img.scrollDown:hover {
 .close-container p {
     opacity: 0;
     margin-top: 15px;
-    font-weight: 900;
+    font-weight: 100;
 }
 
 .close-right, .close-left {
@@ -862,12 +865,12 @@ img.scrollDown:hover {
 
 .sintro-content > h1 {
     font-size: 500%;
-    font-weight: 800;
+    font-weight: 400;
 }
 
 .sintro-content > h3 {
     font-size: 300%;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .slide-content {
@@ -879,7 +882,7 @@ img.scrollDown:hover {
 }
 
 .slide-content h1 {
-    font-weight: 900;
+    font-weight: 500;
 }
 
 .slide-content p {
@@ -893,7 +896,7 @@ img.scrollDown:hover {
 }
 
 .slide-description h1 {
-    font-weight: 900;
+    font-weight: 500;
 }
 
 .slide-image {
@@ -901,7 +904,7 @@ img.scrollDown:hover {
 }
 
 .slide-image-replacer {
-    font-weight: 900;
+    font-weight: 300;
     font-size: 450%;
 }
 
