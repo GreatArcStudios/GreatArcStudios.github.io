@@ -47,15 +47,17 @@ $(document).ready(function () {
         $("#code-box").animate({
             opacity: "1",
             height: "100vh",
-            width: "100vw"
+            width: "100vw",
         }, 850);
         $("#code-box").promise().done(
             function () {
                 $("#close-code").attr("style", "position:fixed");
                 sections[0].css("position", "fixed");
                 $("#code-box").css("overflow", "visible");
+                $('.slide').css("display", "flex");
             }
         );
+
     });
 
     $("#close-code").click(function () {
@@ -79,6 +81,7 @@ $(document).ready(function () {
                 $("#close-code").attr("style", "position:");
                 $("#code-box").css("left", "");
                 $("#code-box").css("overflow", "hidden");
+                $('.slide').css("display", "block");
             });
 
     });
@@ -88,15 +91,17 @@ $(document).ready(function () {
         $("#design-box").animate({
             opacity: "1",
             height: "100vh",
-            width: "100vw"
+            width: "99%",
         }, 850);
         $("#design-box").promise().done(
             function () {
                 $("#close-design").attr("style", "position:fixed");
                 sections[1].css("position", "fixed");
                 $("#design-box").css("overflow", "visible");
+                $('.slide').css("display", "flex");
             }
         );
+
     });
 
     $("#close-design").click(function () {
@@ -120,6 +125,7 @@ $(document).ready(function () {
                 $("#close-design").attr("style", "position:");
                 $("#design-box").css("left", "");
                 $("#design-box").css("overflow", "hidden");
+                $('.slide').css("display", "block");
             });
 
     });
@@ -142,8 +148,8 @@ code.addEventListener("mouseenter", () => {
             frontElements[i].classList.add("minimize");
         }
     }
-
 });
+
 code.addEventListener("mouseleave", () => {
     for (i = 0; i < frontElements.length - 1; i++) {
         if (Object.is(frontElements[i], code)) {

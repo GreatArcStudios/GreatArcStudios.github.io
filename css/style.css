@@ -145,7 +145,7 @@ p {
     width: 0;
     height: 0;
     overflow: hidden;
-    transition: all linear .3s;
+    transition: all ease-out .3s;
 }
 .expand {
     margin-left: 0;
@@ -841,17 +841,14 @@ img.scrollDown:hover {
     height: inherit;
     position: relative;
     z-index: 19;
-
 }
 
 .slide-right {
-    display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
 .slide-left {
-    display: flex;
     justify-content: flex-end;
     align-items: center;
 }
