@@ -692,6 +692,9 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     width: calc(100% / 3);
     height: 100%;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #design {
     background: url(../img/dslide-mountains.png) no-repeat top center;
@@ -723,12 +726,13 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     font-size: 225%;
 }
 
-.expand > p.resume-label {
+.expand > div > p.resume-label {
     font-size: 105%;
     opacity: 1;
     font-weight: 300;
 }
-.expand > p > a {
+
+.expand > div > p > a {
     text-decoration: underline;
 }
 .minimize {
@@ -743,6 +747,11 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
 }
 .middle-label:hover {
     text-decoration: underline;
+}
+
+.middle-label-wrapper {
+    width: 50%;
+    height: 30%;
 }
 .resume-label {
     top: 50%;
@@ -765,7 +774,8 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     left: 0;
     background: rgba(8, 8, 8, 0.6);
 }
-.full-expand > p.middle-label, .full-expand > p.resume-label, .full-expand > a.resume-download {
+
+.full-expand > div > p.middle-label, .full-expand > div > p.resume-label, .full-expand > div > a.resume-download {
     transform: scale3d(0.8, 0.8, 0.05);
     opacity: 0;
 }

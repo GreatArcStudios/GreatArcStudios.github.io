@@ -139,7 +139,6 @@ about = document.querySelector("#about");
 overlayTop = document.querySelector(".overlay-top");
 frontElements = [code, design, about, overlayTop];
 
-
 code.addEventListener("mouseenter", () => {
     for (i = 2; i >= 0; i--) {
         if (Object.is(frontElements[i], code)) {
