@@ -592,6 +592,74 @@ img.scrollDown:hover {
 /*
 }
 */
+@media screen and (max-width: 768px) {
+    .content {
+        flex-flow: column !important;
+        width: 100% !important;
+    }
+
+    .middle-label {
+        top: initial !important;
+    }
+
+    .overlay-top {
+        left: 0 !important;
+        top: 0 !important;
+    }
+
+    .overlay-top > .inner {
+        padding-left: 12px;
+        padding-top: 5px;
+    }
+
+    .overlay-bottom {
+        left: 34% !important;
+    }
+
+    .slide-description > p {
+        font-size: 100% !important;
+    }
+
+    .slide-description > h1 {
+        font-size: 2rem !important;
+    }
+
+    .slide {
+        justify-content: center !important;
+        height: 75% !important;
+    }
+
+    .slide-content {
+        height: 75% !important;
+    }
+
+    #cslide-intro {
+        height: 100% !important;
+    }
+
+    #dslide-intro {
+        height: 100% !important;
+    }
+
+    #about-header {
+        font-size: 200% !important;
+    }
+
+    #main {
+        flex-flow: column !important;
+    }
+
+    .about-sm {
+        margin-top: 5%;
+    }
+
+    .about-content {
+        font-size: 110% !important;
+        margin-bottom: 1%;
+    }
+
+}
+
 .muteVideo {
     float: left;
 }
@@ -693,6 +761,7 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     height: 100%;
     position: relative;
     display: flex;
+    flex-flow: row;
     justify-content: center;
     align-items: center;
 }
