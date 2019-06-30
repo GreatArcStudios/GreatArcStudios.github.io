@@ -3,6 +3,8 @@
 }
 :root {
     --hover-width: 80%;
+    --hover-height: 80%;
+    --other-height: 10%;
     --other-width: 10%;
     --expand-width: 100%;
     --closed-width: 0%;
@@ -83,6 +85,7 @@ ul {
         float: left;
     }
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     background: #21252b;
@@ -658,6 +661,22 @@ img.scrollDown:hover {
         margin-bottom: 1%;
     }
 
+    .expand {
+        height: var(--hover-height) !important;
+        font-size: 180% !important;
+        text-align: center;
+    }
+
+    .minimize {
+        height: var(--other-height) !important;
+        font-size: 80%;
+    }
+
+    .slide-right {
+        justify-content: flex-end !important;
+        align-items: center;
+    }
+
 }
 
 .muteVideo {
@@ -925,10 +944,6 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     z-index: 19;
 }
 
-.slide-right {
-    justify-content: flex-start;
-    align-items: center;
-}
 
 .slide-left {
     justify-content: flex-end;
