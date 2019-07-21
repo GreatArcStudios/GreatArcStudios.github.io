@@ -86,23 +86,18 @@ body {
     font-weight: bold;
     color: #fff; /* IE8 proofing */
     color: rgba(255, 255, 255, .75);
-    border-bottom: 2px solid transparent;
 }
 
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
     background-color: transparent;
     color: rgba(255, 255, 255, 1);
-    border-bottom-color: #4e4e4e;
-    border-bottom-color: rgba(255, 255, 255, 1);
-
 }
 
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
     color: #fff;
-    border-bottom-color: #fff;
 }
 
 @media (min-width: 768px) {

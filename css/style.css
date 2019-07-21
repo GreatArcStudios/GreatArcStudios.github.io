@@ -987,6 +987,9 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     font-size: 450%;
 }
 
+/*
+Image width formatting
+ */
 #dslide-logo-img {
     width: 40%;
 }
@@ -1011,7 +1014,9 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     width: 52%;
 }
 
-
+/*
+Loading screen styles
+ */
 #loading {
     z-index: 1000 !important;
     position: absolute !important;
