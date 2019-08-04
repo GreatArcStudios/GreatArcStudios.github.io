@@ -67,24 +67,6 @@ ul {
     width: 20%;
     float: left;
 }
-@media (min-width: 768px) {
-    .col-sm-15 {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 992px) {
-    .col-md-15 {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 1200px) {
-    .col-lg-15 {
-        width: 20%;
-        float: left;
-    }
-}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -677,6 +659,9 @@ img.scrollDown:hover {
         align-items: center;
     }
 
+    .slide-image-replacer {
+        font-size: 300% !important;
+    }
 }
 
 .muteVideo {
@@ -1002,6 +987,9 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     font-size: 450%;
 }
 
+/*
+Image width formatting
+ */
 #dslide-logo-img {
     width: 40%;
 }
@@ -1022,6 +1010,13 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     width: 40%;
 }
 
+#cslide-udocgen-img {
+    width: 52%;
+}
+
+/*
+Loading screen styles
+ */
 #loading {
     z-index: 1000 !important;
     position: absolute !important;
