@@ -616,7 +616,7 @@ img.scrollDown:hover {
     }
 
     .overlay-bottom {
-        left: 34% !important;
+        display: none;
     }
 
     .slide-description > p {
