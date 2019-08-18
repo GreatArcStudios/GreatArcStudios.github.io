@@ -1,14 +1,14 @@
 var sections = [$("#code"), $("#design"), $("#about"), $(".overlay-top")];
 
 $(window).on('load', function () {
-    setTimeout(removeLoader, 500);
+    setTimeout(removeLoader, 0);
 });
 
 function removeLoader() {
-    $("#loading").fadeOut(500, function () {
+    $("#loading").fadeOut(100, function () {
         $("#loading").remove();
     });
-    $("#main").animate({opacity: '1'}, 200);
+    $("#main").animate({opacity: '1'}, 100);
 }
 
 $(document).ready(function () {
