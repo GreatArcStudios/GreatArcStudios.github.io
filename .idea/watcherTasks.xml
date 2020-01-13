@@ -14,7 +14,7 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="/usr/local/lib/node_modules/uglify-es/bin/uglifyjs" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/npm/uglifyjs" />
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Open Files" />
       <option name="trackOnlyRoot" value="true" />
@@ -34,7 +34,7 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$USER_HOME$/node_modules/yuicompressor/build/yuicompressor-2.4.8.jar" />
+      <option name="program" value="$PROJECT_DIR$/node_modules/yuicompressor/build/yuicompressor-2.4.8.jar" />
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />

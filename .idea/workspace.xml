@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="Small update">
+    <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="Small layout update">
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/Resume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +19,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5324">
-              <caret line="261" column="46" lean-forward="true" selection-start-line="261" selection-start-column="46" selection-end-line="261" selection-end-column="46" />
+            <state relative-caret-position="713">
+              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,8 +31,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/old.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8880">
-              <caret line="376" column="79" selection-start-line="376" selection-start-column="79" selection-end-line="376" selection-end-column="180" />
+            <state relative-caret-position="7843">
+              <caret line="347" column="78" selection-start-line="347" selection-start-column="78" selection-end-line="347" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restructure.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -38,19 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="620" column="19" lean-forward="true" selection-start-line="620" selection-start-column="19" selection-end-line="620" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -58,23 +58,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="32" selection-end-line="231" selection-end-column="3" />
+            <state relative-caret-position="506">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/cover.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/uglify-js/package.json">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -82,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/js/script.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="28" selection-end-column="4716" />
+              <caret column="59" selection-start-column="59" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -102,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5106" lean-forward="true" selection-start-column="5106" selection-end-column="5106" />
+              <caret column="11306" selection-start-column="11306" selection-end-column="11306" />
             </state>
           </provider>
         </entry>
@@ -120,41 +111,42 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>slide-</find>
-      <find>1000</find>
-      <find>files</find>
-      <find>design-box</find>
-      <find>500</find>
-      <find>separ</find>
-      <find>slide-con</find>
-      <find>dslide</find>
-      <find>img</find>
-      <find>img_</find>
-      <find>about-content</find>
-      <find>slide-image</find>
-      <find>backg</find>
-      <find>andelion</find>
-      <find>-color</find>
-      <find>#design</find>
-      <find>dslide-moun</find>
-      <find>misty</find>
-      <find>font</find>
-      <find>jquery</find>
-      <find>position</find>
-      <find>width: inherit</find>
-      <find>width: 100%</find>
-      <find>let</find>
-      <find>blur</find>
-      <find>overlay</find>
-      <find>footer</find>
+      <find>expand</find>
+      <find>all</find>
+      <find>99</find>
+      <find>a</find>
+      <find>a:</find>
+      <find>&lt;a</find>
+      <find>font-weight</find>
+      <find>font-weight: 300</find>
+      <find>font-weight: 200</find>
+      <find>resume-label</find>
+      <find>overlay-top</find>
+      <find>sintro</find>
+      <find>body</find>
+      <find>font-weight: 400</find>
+      <find>font-weight: 500</find>
+      <find>slide-content</find>
+      <find>hover</find>
       <find>transition</find>
-      <find>loading</find>
-      <find>.slide</find>
+      <find>resume</find>
+      <find>slide-description</find>
+      <find>about-content</find>
+      <find>middle-label</find>
+      <find>.content</find>
+      <find>overlay</find>
+      <find>&gt;</find>
+      <find>middle-lab</find>
+      <find>display</find>
+      <find>blur</find>
+      <find>loading-image</find>
+      <find>@media</find>
     </findStrings>
     <replaceStrings>
       <replace>0.3</replace>
       <replace>500</replace>
       <replace>850</replace>
+      <replace>overflow</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -168,11 +160,11 @@
         <option value="$PROJECT_DIR$/js/particles.js" />
         <option value="$PROJECT_DIR$/redo.html" />
         <option value="$PROJECT_DIR$/css/cover.min.css" />
-        <option value="$PROJECT_DIR$/js/script.min.js" />
         <option value="$PROJECT_DIR$/css/style.min.css" />
+        <option value="$PROJECT_DIR$/js/script.min.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -183,8 +175,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1620" />
-    <option name="height" value="2092" />
+    <option name="x" value="218" />
+    <option name="y" value="422" />
+    <option name="width" value="1950" />
+    <option name="height" value="1110" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -207,12 +201,24 @@
             <path>
               <item name="GreatArcStudios.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="GreatArcStudios.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="style.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="GreatArcStudios.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreatArcStudios.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GreatArcStudios.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="GreatArcStudios.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreatArcStudios.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreatArcStudios.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="script.js" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -226,7 +232,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/.bin/uglifyjs.cmd" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/drive-download-20190821T141207Z-001" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -252,6 +258,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/GreatArcStudios.github.io/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -285,7 +301,24 @@
       <workItem from="1560614887489" duration="372000" />
       <workItem from="1560615290184" duration="1143000" />
       <workItem from="1560735049426" duration="1933000" />
-      <workItem from="1560780641611" duration="1831000" />
+      <workItem from="1560780641611" duration="12684000" />
+      <workItem from="1560813032834" duration="9317000" />
+      <workItem from="1561090830973" duration="3794000" />
+      <workItem from="1562082072977" duration="54000" />
+      <workItem from="1562512288782" duration="239000" />
+      <workItem from="1563726388285" duration="4030000" />
+      <workItem from="1564148873025" duration="74000" />
+      <workItem from="1564937422881" duration="293000" />
+      <workItem from="1565319391291" duration="2327000" />
+      <workItem from="1565577614010" duration="697000" />
+      <workItem from="1566093652354" duration="1199000" />
+      <workItem from="1566309244949" duration="634000" />
+      <workItem from="1568400020958" duration="202000" />
+      <workItem from="1568488634568" duration="194000" />
+      <workItem from="1569168475033" duration="64000" />
+      <workItem from="1569168654296" duration="601000" />
+      <workItem from="1572559419635" duration="599000" />
+      <workItem from="1575321365590" duration="373000" />
     </task>
     <task id="LOCAL-00001" summary="Added mute button">
       <created>1505271904626</created>
@@ -371,31 +404,136 @@
       <option name="project" value="LOCAL" />
       <updated>1560735502856</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Resume update">
+      <created>1560788282755</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560788282755</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Small layout fix and added gitignore">
+      <created>1560808430843</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560808430843</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Font Update">
+      <created>1560815667873</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1560815667873</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Small layout update">
+      <created>1561091323143</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1561091323144</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Substantial work on mobile version of site">
+      <created>1561093620319</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1561093620319</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Small layout update">
+      <created>1564937499672</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1564937499672</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Resume update">
+      <created>1565319733699</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1565319733699</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Resume update">
+      <created>1565321012537</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1565321012538</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Resume Update">
+      <created>1565321544141</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1565321544141</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Resume update">
+      <created>1565577700195</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1565577700195</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Small layout update">
+      <created>1566093708434</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1566093708434</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Small layout update">
+      <created>1566094243525</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1566094243525</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Resume Update">
+      <created>1568400048485</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1568400048485</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Resume update">
+      <created>1568401819019</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1568401819019</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Resume update">
+      <created>1568488817017</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1568488817017</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125413000" />
+    <option name="totallyTimeSpent" value="160957000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1633" height="1053" extended-state="6" />
+    <frame x="109" y="211" width="975" height="555" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12711334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1319149" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956383" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297414" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49969116" weight="0.3297414" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32887402" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.48653725" weight="0.32887402" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32777777" />
       <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32979852" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003088" side_tool="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5134627" side_tool="true" weight="0.32777777" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -416,18 +554,18 @@
     <MESSAGE value="Added loading graphic" />
     <MESSAGE value="Updated resume &amp; copyright year" />
     <MESSAGE value="Small update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small update" />
+    <MESSAGE value="Small layout fix and added gitignore" />
+    <MESSAGE value="Font Update" />
+    <MESSAGE value="Substantial work on mobile version of site" />
+    <MESSAGE value="Small layout update" />
+    <MESSAGE value="Resume Update" />
+    <MESSAGE value="Resume update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resume update" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/volume.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/plugin.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/overlay.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -525,13 +663,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/IMG_0346.JPG" />
-    <entry file="file://$PROJECT_DIR$/restructure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -547,18 +678,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/.bin/uglifyjs.cmd">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/uglify-js/bin/uglifyjs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6277" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8880">
-          <caret line="376" column="79" selection-start-line="376" selection-start-column="79" selection-end-line="376" selection-end-column="180" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -579,6 +698,59 @@
     <entry file="file://$PROJECT_DIR$/node_modules/uglify-js/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/uglify-js/bin/uglifyjs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/uglify-es/bin/uglifyjs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7843">
+          <caret line="347" column="78" selection-start-line="347" selection-start-column="78" selection-end-line="347" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restructure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="59" selection-start-column="59" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/skrollr.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -588,38 +760,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-end-column="4716" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5106" lean-forward="true" selection-start-column="5106" selection-end-column="5106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="32" selection-end-line="231" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5324">
-          <caret line="261" column="46" lean-forward="true" selection-start-line="261" selection-start-column="46" selection-end-line="261" selection-end-column="46" />
+          <caret column="11306" selection-start-column="11306" selection-end-column="11306" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
+        <state relative-caret-position="114">
+          <caret line="620" column="19" lean-forward="true" selection-start-line="620" selection-start-column="19" selection-end-line="620" selection-end-column="19" />
         </state>
       </provider>
     </entry>
