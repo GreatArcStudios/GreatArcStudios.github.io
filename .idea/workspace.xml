@@ -1,44 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="Resume update">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutbg_medlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/codebg_low.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/codebg_med.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/designbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/unibg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sta130_final_project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GreatArcStudios.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GreatArcStudios.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+    <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="2020 update work - update restructure page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/Resume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Academics.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop HD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Equator logo .png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Eric Zhu programmer-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Eric Zhu programmer-03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Great Arc Studios logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Island beach 43.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Island beach 44.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Landscape 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cslide-equator.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/cslide-equator.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/dandelion.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/dandelion.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/dslide-cards.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/dslide-cards.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/dslide-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/dslide-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/dslide-mountains.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/dslide-mountains.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/dslide-puma.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/dslide-puma.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/dslide-ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/dslide-ui.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/eric code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/forest 74.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/loading-image.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/new horizons logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restructure.html" beforeDir="false" afterPath="$PROJECT_DIR$/restructure.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,14 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-              <folding>
-                <element signature="n#style#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="414">
+              <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -84,17 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19134">
-              <caret line="981" selection-start-line="981" selection-end-line="981" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/old.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7038">
-              <caret line="312" column="55" selection-start-line="312" selection-start-column="55" selection-end-line="312" selection-end-column="55" />
+            <state relative-caret-position="1440">
+              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -108,11 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restructure.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="332" column="34" lean-forward="true" selection-start-line="332" selection-start-column="34" selection-end-line="332" selection-end-column="34" />
+            <state relative-caret-position="60">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/cover.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1195" selection-start-column="1195" selection-end-column="1195" />
             </state>
           </provider>
         </entry>
@@ -142,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="6604" selection-start-column="6604" selection-end-column="6604" />
+              <caret column="687" selection-start-column="687" selection-end-column="687" />
             </state>
           </provider>
         </entry>
@@ -160,9 +122,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>expand</find>
-      <find>1s</find>
-      <find>.content</find>
       <find>loading=&quot;lazy&quot;</find>
       <find>blur</find>
       <find>\</find>
@@ -190,6 +149,9 @@
       <find>course</find>
       <find>padding-top</find>
       <find>sorted</find>
+      <find>loade</find>
+      <find>background</find>
+      <find>undercon</find>
     </findStrings>
     <replaceStrings>
       <replace>0.3</replace>
@@ -215,6 +177,7 @@
         <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/js/script.min.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/restructure.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -388,7 +351,7 @@
       <workItem from="1590676028149" duration="1380000" />
       <workItem from="1596418811320" duration="38143000" />
       <workItem from="1596512352877" duration="26756000" />
-      <workItem from="1596595325869" duration="8745000" />
+      <workItem from="1596595325869" duration="10469000" />
     </task>
     <task id="LOCAL-00001" summary="Added mute button">
       <created>1505271904626</created>
@@ -586,11 +549,25 @@
       <option name="project" value="LOCAL" />
       <updated>1578880470438</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="2020 update work">
+      <created>1596604447197</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1596604447197</updated>
+    </task>
+    <task id="LOCAL-00030" summary="2020 update work - update restructure page">
+      <created>1596605564601</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1596605564601</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236697000" />
+    <option name="totallyTimeSpent" value="238421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1633" height="1053" extended-state="6" />
@@ -614,14 +591,15 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="358" height="853" id="Documentation" order="3" side_tool="true" weight="0.3335447" />
+      <window_info anchor="right" x="0" y="0" width="358" height="853" id="Documentation" order="3" side_tool="true" visible="true" weight="0.3335447" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Added mute button" />
     <MESSAGE value="Redo committed" />
     <MESSAGE value="commit newest resume" />
@@ -638,7 +616,9 @@
     <MESSAGE value="Small layout update" />
     <MESSAGE value="Resume Update" />
     <MESSAGE value="Resume update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resume update" />
+    <MESSAGE value="2020 update work" />
+    <MESSAGE value="2020 update work - update restructure page" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020 update work - update restructure page" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -700,13 +680,6 @@
     <entry file="file://$PROJECT_DIR$/img/IMG_0346.JPG" />
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/cover.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/IMG_0282.JPG" />
     <entry file="file://$PROJECT_DIR$/node_modules/.bin/uglifyjs.cmd">
@@ -821,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6604" selection-start-column="6604" selection-end-column="6604" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5324">
@@ -838,27 +804,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19134">
-          <caret line="981" selection-start-line="981" selection-end-line="981" />
+        <state>
+          <caret column="687" selection-start-column="687" selection-end-column="687" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/cover.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state>
+          <caret column="1195" selection-start-column="1195" selection-end-column="1195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/restructure.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="332" column="34" lean-forward="true" selection-start-line="332" selection-start-column="34" selection-end-line="332" selection-end-column="34" />
+        <state relative-caret-position="60">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
         </state>
       </provider>
     </entry>
