@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="Small layout update">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="Resume update">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/aboutbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/aboutbg_medlow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/codebg_low.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/codebg_med.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/designbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/unibg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sta130_final_project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GreatArcStudios.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GreatArcStudios.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/Resume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Academics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Desktop HD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Equator logo .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Eric Zhu programmer-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Eric Zhu programmer-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Great Arc Studios logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Island beach 43.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Island beach 44.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Landscape 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cslide-equator.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/cslide-equator.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dandelion.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/dandelion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dslide-cards.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/dslide-cards.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dslide-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/dslide-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dslide-mountains.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/dslide-mountains.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dslide-puma.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/dslide-puma.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dslide-ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/dslide-ui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/eric code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/forest 74.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/loading-image.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/new horizons logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restructure.html" beforeDir="false" afterPath="$PROJECT_DIR$/restructure.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +54,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="391">
+              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding>
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/particles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/cover.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="163" column="8" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19134">
+              <caret line="981" selection-start-line="981" selection-end-line="981" />
             </state>
           </provider>
         </entry>
@@ -31,26 +93,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/old.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7843">
-              <caret line="347" column="78" selection-start-line="347" selection-start-column="78" selection-end-line="347" selection-end-column="78" />
+            <state relative-caret-position="7038">
+              <caret line="312" column="55" selection-start-line="312" selection-start-column="55" selection-end-line="312" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/restructure.html">
+        <entry file="file://$PROJECT_DIR$/js/script.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+            <state>
+              <caret column="256" selection-start-column="256" selection-end-column="256" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+        <entry file="file://$PROJECT_DIR$/restructure.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="620" column="19" lean-forward="true" selection-start-line="620" selection-start-column="19" selection-end-line="620" selection-end-column="19" />
+            <state relative-caret-position="529">
+              <caret line="332" column="34" lean-forward="true" selection-start-line="332" selection-start-column="34" selection-end-line="332" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -58,33 +120,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="59" selection-start-column="59" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/skrollr.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-5324">
+              <caret line="57" column="40" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="40" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#!!block;n#removeLoader#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/regexp-tree/dist/interpreter/finite-automaton/dfa/dfa-minimizer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9430">
+              <caret line="410" column="2" selection-start-line="410" selection-start-column="2" selection-end-line="410" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -93,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="11306" selection-start-column="11306" selection-end-column="11306" />
+              <caret column="6604" selection-start-column="6604" selection-end-column="6604" />
             </state>
           </provider>
         </entry>
@@ -112,41 +161,44 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>expand</find>
-      <find>all</find>
-      <find>99</find>
-      <find>a</find>
-      <find>a:</find>
-      <find>&lt;a</find>
-      <find>font-weight</find>
-      <find>font-weight: 300</find>
-      <find>font-weight: 200</find>
-      <find>resume-label</find>
-      <find>overlay-top</find>
-      <find>sintro</find>
-      <find>body</find>
-      <find>font-weight: 400</find>
-      <find>font-weight: 500</find>
-      <find>slide-content</find>
-      <find>hover</find>
-      <find>transition</find>
-      <find>resume</find>
-      <find>slide-description</find>
-      <find>about-content</find>
-      <find>middle-label</find>
+      <find>1s</find>
       <find>.content</find>
-      <find>overlay</find>
-      <find>&gt;</find>
-      <find>middle-lab</find>
-      <find>display</find>
+      <find>loading=&quot;lazy&quot;</find>
       <find>blur</find>
-      <find>loading-image</find>
-      <find>@media</find>
+      <find>\</find>
+      <find>bg</find>
+      <find>bg.</find>
+      <find>dslide-</find>
+      <find>full-ex</find>
+      <find>--closed</find>
+      <find>filter</find>
+      <find>fa-git</find>
+      <find>loading</find>
+      <find>download</find>
+      <find>here</find>
+      <find>about-cont</find>
+      <find>code</find>
+      <find>display</find>
+      <find>slide</find>
+      <find>slide-con</find>
+      <find>year-</find>
+      <find>hr</find>
+      <find>sep</find>
+      <find>year</find>
+      <find>year-header</find>
+      <find>backgo</find>
+      <find>course</find>
+      <find>padding-top</find>
+      <find>sorted</find>
     </findStrings>
     <replaceStrings>
       <replace>0.3</replace>
       <replace>500</replace>
       <replace>850</replace>
       <replace>overflow</replace>
+      <replace>&quot;display&quot;, &quot;flex&quot;</replace>
+      <replace>&quot;display&quot;, &quot;block&quot;</replace>
+      <replace>bg_comp.</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -162,9 +214,9 @@
         <option value="$PROJECT_DIR$/css/cover.min.css" />
         <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/js/script.min.js" />
+        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -175,17 +227,16 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="218" />
-    <option name="y" value="422" />
-    <option name="width" value="1950" />
-    <option name="height" value="1110" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1646" />
+    <option name="height" value="2106" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,12 +253,23 @@
               <item name="GreatArcStudios.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="GreatArcStudios.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="cover.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="GreatArcStudios.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreatArcStudios.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="style.css" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="GreatArcStudios.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="GreatArcStudios.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreatArcStudios.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreatArcStudios.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GreatArcStudios.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -224,6 +286,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,7 +298,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/drive-download-20190821T141207Z-001" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -243,6 +306,7 @@
       <recent name="D:\Documents\GitHub\GreatArcStudios.github.io\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ericz\Documents\GitHub\GreatArcStudios.github.io" />
       <recent name="C:\Users\ericz\Documents\GitHub\GreatArcStudios.github.io\files" />
       <recent name="C:\Users\ericz\Documents\GitHub\GreatArcStudios.github.io\img" />
     </key>
@@ -260,7 +324,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/GreatArcStudios.github.io/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GreatArcStudios.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -319,6 +383,12 @@
       <workItem from="1569168654296" duration="601000" />
       <workItem from="1572559419635" duration="599000" />
       <workItem from="1575321365590" duration="373000" />
+      <workItem from="1578880428391" duration="117000" />
+      <workItem from="1588559395396" duration="599000" />
+      <workItem from="1590676028149" duration="1380000" />
+      <workItem from="1596418811320" duration="38143000" />
+      <workItem from="1596512352877" duration="26756000" />
+      <workItem from="1596595325869" duration="8745000" />
     </task>
     <task id="LOCAL-00001" summary="Added mute button">
       <created>1505271904626</created>
@@ -509,22 +579,29 @@
       <option name="project" value="LOCAL" />
       <updated>1568488817017</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Resume update">
+      <created>1578880470438</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1578880470438</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160957000" />
+    <option name="totallyTimeSpent" value="236697000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="109" y="211" width="975" height="555" extended-state="0" />
+    <frame x="-6" y="-6" width="1633" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1319149" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1357007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297414" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32777777" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -537,6 +614,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="358" height="853" id="Documentation" order="3" side_tool="true" weight="0.3335447" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,44 +644,12 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/overlay.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/particles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1736" selection-start-column="1736" selection-end-column="1736" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Eric Zhu programmer-03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/forest 74.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/github.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Graphic design .png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Island beach 44.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Landscape 4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Island beach 44.PNG" />
+    <entry file="file://$PROJECT_DIR$/img/Landscape 4.png" />
     <entry file="file://$PROJECT_DIR$/img/dslide-mountains.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/new horizons logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/new horizons logo.png" />
     <entry file="file://$PROJECT_DIR$/img/Audio Visualizer 3.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -631,22 +677,11 @@
     <entry file="file://$PROJECT_DIR$/img/dslide-puma.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/particles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="900" selection-start-column="900" selection-end-column="900" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/eric code.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/eric code.png" />
     <entry file="file://$PROJECT_DIR$/img/equator ui.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/Equator logo .png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Equator logo .png" />
     <entry file="file://$PROJECT_DIR$/img/Equator Concept 12-31-16.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -673,9 +708,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/IMG_0282.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/IMG_0282.JPG" />
     <entry file="file://$PROJECT_DIR$/node_modules/.bin/uglifyjs.cmd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -685,13 +718,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/cover.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -710,46 +736,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7843">
-          <caret line="347" column="78" selection-start-line="347" selection-start-column="78" selection-end-line="347" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restructure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="59" selection-start-column="59" selection-end-column="59" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/skrollr.min.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -760,17 +748,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/cslide-udglogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/cslide-users.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="18235" column="17" selection-start-line="18235" selection-start-column="17" selection-end-line="18235" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/ericz/Documents/GitHub/GreatArcStudios.github.io/js/script.js">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/js/script.js</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="693.0" y="418.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7038">
+          <caret line="312" column="55" selection-start-line="312" selection-start-column="55" selection-end-line="312" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="256" selection-start-column="256" selection-end-column="256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/regexp-tree/dist/interpreter/finite-automaton/dfa/dfa-minimizer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9430">
+          <caret line="410" column="2" selection-start-line="410" selection-start-column="2" selection-end-line="410" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/particles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/cover.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="163" column="8" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="11306" selection-start-column="11306" selection-end-column="11306" />
+          <caret column="6604" selection-start-column="6604" selection-end-column="6604" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5324">
+          <caret line="57" column="40" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!block;n#removeLoader#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="620" column="19" lean-forward="true" selection-start-line="620" selection-start-column="19" selection-end-line="620" selection-end-column="19" />
+        <state relative-caret-position="19134">
+          <caret line="981" selection-start-line="981" selection-end-line="981" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restructure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="332" column="34" lean-forward="true" selection-start-line="332" selection-start-column="34" selection-end-line="332" selection-end-column="34" />
         </state>
       </provider>
     </entry>

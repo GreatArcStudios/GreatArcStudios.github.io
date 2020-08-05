@@ -1,237 +1,319 @@
-var sections = [$("#code"), $("#design"), $("#about"), $(".overlay-top")];
+var sections = [$("#code"), $("#design"), $("#academics"), $("#about"), $(".overlay-top")];
 
 $(window).on('load', function () {
-    setTimeout(removeLoader, 0);
+	$("#main").animate({opacity: '1'}, 100);
+
+	//setTimeout(removeLoader, 0);
 });
 
 function removeLoader() {
-    $("#loading").fadeOut(100, function () {
-        $("#loading").remove();
-    });
-    $("#main").animate({opacity: '1'}, 100);
+	$("#loading").fadeOut(100, function () {
+		$("#loading").remove();
+	});
+	$("#main").animate({opacity: '1'}, 100);
 }
 
 $(document).ready(function () {
-    $("#about").click(function () {
-        $("#about-box").css("z-index", 20);
-        $("#about-box").animate({
-            opacity: "1",
-            height: "100vh",
-            width: "100vw"
-        }, 850);
-    });
+	let about_box = $("#about-box");
+	$("#about").click(function () {
+		about_box.css("display", "flex");
+		$("#about").attr("style", "position:fixed");
+		about_box.animate({
+			opacity: "1",
+		}, 850);
+	});
 
-    $("#close-about").click(function () {
-        $("#about-box").animate({
-            opacity: "0",
-            height: "100vh",
-            width: "50vw",
-            left: "25%"
-        }, 850);
-        $("#about-box").promise().done(
-            function () {
-                $("#about-box").css("z-index", -10);
-                for (i = 0; i < sections.length; i++) {
-                    if (i == 2) {
-                        sections[i].removeClass("full-expand");
-                    } else {
-                        sections[i].removeClass("full-minimize");
-                    }
-                }
-                $("#about-box").css("left", "");
-            });
+	$("#close-about").click(function () {
+		about_box.animate({
+			opacity: "0",
+		}, 850);
+		about_box.promise().done(
+			function () {
+				about_box.css("display", "none");
+				for (i = 0; i < sections.length; i++) {
+					if (i == 3) {
+						sections[i].removeClass("full-expand");
+						sections[3].css("position", "");
+					} else {
+						sections[i].removeClass("full-minimize");
+					}
+				}
+				about_box.attr("style", "position:");
 
-    });
-    $("#code").click(function () {
-        $("#code-box").css("z-index", 20);
-        $("#code-box").animate({
-            opacity: "1",
-            height: "100vh",
-            width: "100vw",
-        }, 850);
-        $("#code-box").promise().done(
-            function () {
-                $("#close-code").attr("style", "position:fixed");
-                sections[0].css("position", "fixed");
-                $("#code-box").css("overflow", "visible");
-                $('.slide').css("display", "flex");
-            }
-        );
+			});
 
-    });
+	});
 
-    $("#close-code").click(function () {
-        $("#code-box").animate({
-            opacity: "0",
-            height: "100vh",
-            width: "50vw",
-            left: "25%"
-        }, 850);
-        $("#code-box").promise().done(
-            function () {
-                $("#code-box").css("z-index", -10);
-                for (i = 0; i < sections.length; i++) {
-                    if (i == 0) {
-                        sections[i].removeClass("full-expand");
-                        sections[0].css("position", "");
-                    } else {
-                        sections[i].removeClass("full-minimize");
-                    }
-                }
-                $("#close-code").attr("style", "position:");
-                $("#code-box").css("left", "");
-                $("#code-box").css("overflow", "hidden");
-                $('.slide').css("display", "block");
-            });
+	$("#academics").click(function () {
+		let academics_box = $("#academics-box");
+		academics_box.css("display", "block");
+		sections[2].css("position", "fixed");
+		academics_box.animate({
+			opacity: "1",
+		}, 850);
+		academics_box.promise().done(
+			function () {
+				$("#close-academics").attr("style", "position:fixed");
+				$("#academics-box").css("overflow", "visible");
+				$('.slide').css("display", "flex");
+			}
+		);
 
-    });
+	});
 
-    $("#design").click(function () {
-        $("#design-box").css("z-index", 20);
-        $("#design-box").animate({
-            opacity: "1",
-            height: "100vh",
-            width: "99%",
-        }, 850);
-        $("#design-box").promise().done(
-            function () {
-                $("#close-design").attr("style", "position:fixed");
-                sections[1].css("position", "fixed");
-                $("#design-box").css("overflow", "visible");
-                $('.slide').css("display", "flex");
-            }
-        );
+	$("#close-academics").click(function () {
+		let academics_box = $("#academics-box");
 
-    });
+		academics_box.animate({
+			opacity: "0"
+		}, 850);
+		academics_box.promise().done(
+			function () {
+				academics_box.css("display", "none");
+				for (i = 0; i < sections.length; i++) {
+					if (i == 2) {
+						sections[i].removeClass("full-expand");
+						sections[2].css("position", "");
+					} else {
+						sections[i].removeClass("full-minimize");
+					}
+				}
+				$("#close-academics").attr("style", "position:");
+				academics_box.css("overflow", "hidden");
+				//$('.slide').css("display", "block");
+			});
 
-    $("#close-design").click(function () {
-        $("#design-box").animate({
-            opacity: "0",
-            height: "100vh",
-            width: "50vw",
-            left: "25%"
-        }, 850);
-        $("#design-box").promise().done(
-            function () {
-                $("#design-box").css("z-index", -10);
-                for (i = 0; i < sections.length; i++) {
-                    if (i == 1) {
-                        sections[i].removeClass("full-expand");
-                        sections[1].css("position", "");
-                    } else {
-                        sections[i].removeClass("full-minimize");
-                    }
-                }
-                $("#close-design").attr("style", "position:");
-                $("#design-box").css("left", "");
-                $("#design-box").css("overflow", "hidden");
-                $('.slide').css("display", "block");
-            });
+	});
 
-    });
+
+	$("#code").click(function () {
+		$("#code-box").css("display", "block");
+		sections[0].css("position", "fixed");
+		$("#code-box").animate({
+			opacity: "1"
+		}, 850);
+		$("#code-box").promise().done(
+			function () {
+				$("#close-code").attr("style", "position:fixed");
+				$("#code-box").css("overflow", "visible");
+				$('.slide').css("display", "flex");
+			}
+		);
+
+	});
+
+	$("#close-code").click(function () {
+		sections[0].css("position", "");
+		$("#code-box").animate({
+			opacity: "0"
+		}, 850);
+		$("#code-box").promise().done(
+			function () {
+				$("#code-box").css("display", "none");
+				for (i = 0; i < sections.length; i++) {
+					if (i == 0) {
+						sections[i].removeClass("full-expand");
+					} else {
+						sections[i].removeClass("full-minimize");
+					}
+				}
+				$("#close-code").attr("style", "position:");
+				$("#code-box").css("overflow", "hidden");
+				$('.slide').css("display", "block");
+			});
+
+	});
+
+	$("#design").click(function () {
+		$("#design-box").css("display", "block");
+		sections[1].css("position", "fixed");
+		$("#design-box").animate({
+			opacity: "1"
+		}, 850);
+		$("#design-box").promise().done(
+			function () {
+				$("#close-design").attr("style", "position:fixed");
+				$("#design-box").css("overflow", "visible");
+				$('.slide').css("display", "flex");
+			}
+		);
+
+	});
+
+	$("#close-design").click(function () {
+		sections[1].css("position", "");
+		$("#design-box").animate({
+			opacity: "0"
+		}, 850);
+		$("#design-box").promise().done(
+			function () {
+				$("#design-box").css("display", "none");
+				for (i = 0; i < sections.length; i++) {
+					if (i == 1) {
+						sections[i].removeClass("full-expand");
+					} else {
+						sections[i].removeClass("full-minimize");
+					}
+				}
+				$("#close-design").attr("style", "position:");
+				$("#design-box").css("overflow", "hidden");
+				$('.slide').css("display", "block");
+			});
+
+	});
 
 });
 
 
-code = document.querySelector("#code");
-design = document.querySelector("#design");
-about = document.querySelector("#about");
-overlayTop = document.querySelector(".overlay-top");
-frontElements = [code, design, about, overlayTop];
+let code = document.querySelector("#code");
+let design = document.querySelector("#design");
+let about = document.querySelector("#about");
+let academics = document.querySelector("#academics");
+let overlayTop = document.querySelector(".overlay-top");
+let animation_complete = true;
+let frontElements = [code, design, academics, about, overlayTop];
+
+function mouseEnter(panel) {
+	//console.log("Animation complete? ", animation_complete)
+
+	if (animation_complete) {
+		//console.log("mouse entered " + panel.id);
+		//animation_complete = false;
+		// setTimeout(() => {
+		// 	animation_complete = true;
+		// 	console.log("animation complete " + panel.id)
+		// }, 300);
+		for (let i = 0; i < frontElements.length - 1; i++) {
+			// if(i+1 === frontElements.length - 1){
+			//
+			// }
+
+			if (Object.is(frontElements[i], panel)) {
+				frontElements[i].classList.add("expand");
+			} else if (i !== frontElements.length - 1) {
+				frontElements[i].classList.add("minimize");
+			}
+		}
+		//animation_complete = true;
+	}
+}
+
+function mouseLeave(panel) {
+	//console.log("Animation complete? ", animation_complete)
+	if (animation_complete) {
+		//console.log("mouse left " + panel.id);
+
+		//animation_complete = false;
+		// setTimeout(() => {
+		// 	animation_complete = true;
+		// 	console.log("animation complete " + panel.id)
+		// }, 300);
+		for (let i = 0; i < frontElements.length - 1; i++) {
+			// if(i+1 === frontElements.length - 1){
+			//
+			// }
+
+
+			if (Object.is(frontElements[i], panel)) {
+				frontElements[i].classList.remove("expand");
+			} else if (i !== frontElements.length - 1) {
+				frontElements[i].classList.remove("minimize");
+			}
+		}
+		//animation_complete = true
+	}
+}
+
+function mouseClick(panel) {
+
+	if (animation_complete) {
+		for (let i = 0; i < frontElements.length; i++) {
+			if (Object.is(frontElements[i], panel)) {
+				frontElements[i].classList.add("full-expand");
+				frontElements[i].classList.remove("expand");
+
+			} else {
+				frontElements[i].classList.remove("minimize");
+				frontElements[i].classList.add("full-minimize");
+			}
+		}
+	}
+}
 
 code.addEventListener("mouseenter", () => {
-    for (i = 2; i >= 0; i--) {
-        if (Object.is(frontElements[i], code)) {
-            frontElements[i].classList.add("expand");
-        } else {
-            frontElements[i].classList.add("minimize");
-        }
-    }
+	if (animation_complete) {
+		//animation_complete = false;
+		// setTimeout(() => {
+		// 	animation_complete = true;
+		// 	console.log("animation complete: code ")
+		// }, 300);
+		for (i = 3; i >= 0; i--) {
+
+			// if(i === 0){
+			// 	setTimeout(() => {
+			// 		animation_complete = true;
+			// 		console.log("animation complete: code ")
+			// 	}, 300);
+			// }
+
+			if (Object.is(frontElements[i], code)) {
+				frontElements[i].classList.add("expand");
+			} else {
+				frontElements[i].classList.add("minimize");
+			}
+		}
+		//animation_complete = true;
+	}
+
 });
 
+// mouse events
+
 code.addEventListener("mouseleave", () => {
-    for (i = 0; i < frontElements.length - 1; i++) {
-        if (Object.is(frontElements[i], code)) {
-            frontElements[i].classList.remove("expand");
-        } else {
-            frontElements[i].classList.remove("minimize");
-        }
-    }
+	mouseLeave(code)
 });
 
 code.addEventListener("click", () => {
-    for (i = 0; i < frontElements.length; i++) {
-        if (Object.is(frontElements[i], code)) {
-            frontElements[i].classList.remove("expand");
-            frontElements[i].classList.add("full-expand");
-        } else {
-            frontElements[i].classList.remove("minimize");
-            frontElements[i].classList.add("full-minimize");
-        }
-    }
+	mouseClick(code);
 });
 
 design.addEventListener("mouseenter", () => {
-    for (i = 0; i < frontElements.length - 1; i++) {
-        if (Object.is(frontElements[i], design)) {
-            frontElements[i].classList.add("expand");
-        } else {
-            frontElements[i].classList.add("minimize");
-        }
-    }
+	mouseEnter(design);
+
 });
 
 design.addEventListener("mouseleave", () => {
-    for (i = 0; i < frontElements.length - 1; i++) {
-        if (Object.is(frontElements[i], design)) {
-            frontElements[i].classList.remove("expand");
-        } else {
-            frontElements[i].classList.remove("minimize");
-        }
-    }
+	mouseLeave(design)
 });
 
 design.addEventListener("click", () => {
-    for (i = 0; i < frontElements.length; i++) {
-        if (Object.is(frontElements[i], design)) {
-            frontElements[i].classList.add("full-expand");
-            frontElements[i].classList.remove("expand");
-
-        } else {
-            frontElements[i].classList.remove("minimize");
-            frontElements[i].classList.add("full-minimize");
-        }
-    }
+	mouseClick(design)
 });
 
+
+academics.addEventListener("mouseenter", () => {
+	mouseEnter(academics)
+});
+
+academics.addEventListener("mouseleave", () => {
+	mouseLeave(academics)
+});
+
+academics.addEventListener("click", () => {
+	mouseClick(academics)
+});
+
+
 about.addEventListener("mouseenter", () => {
-    for (i = 0; i < frontElements.length - 1; i++) {
-        if (Object.is(frontElements[i], about)) {
-            frontElements[i].classList.add("expand");
-        } else {
-            frontElements[i].classList.add("minimize");
-        }
-    }
+	mouseEnter(about)
 });
 
 about.addEventListener("mouseleave", () => {
-    for (i = 0; i < frontElements.length - 1; i++) {
-        if (Object.is(frontElements[i], about)) {
-            frontElements[i].classList.remove("expand");
-        } else {
-            frontElements[i].classList.remove("minimize");
-        }
-    }
+	mouseLeave(about)
 });
 
 about.addEventListener("click", () => {
-    for (i = 0; i < frontElements.length; i++) {
-        if (Object.is(frontElements[i], about)) {
-            frontElements[i].classList.remove("expand");
-            frontElements[i].classList.add("full-expand");
-        } else {
-            frontElements[i].classList.remove("minimize");
-            frontElements[i].classList.add("full-minimize");
-        }
-    }
+	mouseClick(about)
 });
+
+

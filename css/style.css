@@ -4,8 +4,8 @@
 :root {
     --hover-width: 80%;
     --hover-height: 80%;
-    --other-height: 10%;
-    --other-width: 10%;
+    --other-height: calc(20% / 3);
+    --other-width: calc(20% / 3);
     --expand-width: 100%;
     --closed-width: 0%;
 }
@@ -133,10 +133,10 @@ p {
     transition: all ease-out .3s;
 }
 .expand {
-    margin-left: 0;
+    margin-right: 0;
     margin-top: 0;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     z-index: 10;
@@ -317,15 +317,13 @@ img.scrollDown:hover {
     padding-left: inherit;
     height: inherit;
 }
-#academics {
-    text-align: left;
-}
+
 
 /*#graphicDesign-Slide-1 .bcg {
     */
 /*background-image: url(../img/misty%20pountains.png);
 */
-/*
+/*f
 }
 */
 /*#graphicDesign-Slide-2 .bcg {
@@ -543,13 +541,6 @@ img.scrollDown:hover {
 /*
 }
 */
-#academics {
-    width: inherit;
-    margin-top: 50px;
-    height: 100%;
-    position: relative;
-}
-
 /*#academics-Slide-1 .bcg {
     */
 /*background-size: contain;
@@ -577,7 +568,7 @@ img.scrollDown:hover {
 /*
 }
 */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .content {
         flex-flow: column !important;
         width: 100% !important;
@@ -644,7 +635,7 @@ img.scrollDown:hover {
     }
 
     .expand {
-        height: var(--hover-height) !important;
+        max-height: var(--hover-height) !important;
         font-size: 180% !important;
         text-align: center;
     }
@@ -688,22 +679,21 @@ img.scrollDown:hover {
     z-index: 20;
 }
 
-#about-box {
-    width: 50%;
-    height: 0;
-    z-index: -10;
-    position: absolute;
-    opacity: 0;
-    display: flex;
-    align-content: center;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-align-content: center;
-    overflow: hidden;
+.course-type-container {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(0px);
+    margin-right: 20%;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 10px;
 }
 
-#about-box .col, a {
-    color: white;
+.course-type {
+    text-align: left;
 }
 
 a:hover {
@@ -716,6 +706,10 @@ a:hover {
     font-size: 145%;
     text-align: initial;
     font-weight: 100
+}
+
+.about-content a {
+    text-decoration: underline;
 }
 
 #about-header {
@@ -744,6 +738,13 @@ a:hover {
     margin-bottom: 2%;
 }
 
+.separator-long {
+    border-color: white;
+    width: 75%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 .about-sm {
     flex: 0 0 100%;
     justify-content: center;
@@ -754,41 +755,24 @@ a:hover {
 }
 
 a, p, h1, h3, .content, .resume-label, .middle-label {
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
     transition-timing-function: ease-in-out;
     -webkit-transition-timing-function: ease-in-out;
 }
 .content {
-    width: 33.333333%;
-    width: calc(100% / 3);
+    width: calc(100% / 4);
     height: 100%;
     position: relative;
     display: flex;
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
-#design {
-    background: url(../img/dslide-mountains.png) no-repeat top center;
-    background-size: cover;
-    justify-content: center;
-}
-#main {
-    height: 100vh;
-    text-align: center;
-    overflow: hidden;
-    text-shadow: 2px 3px 14px #383838;
-    opacity: 0;
-}
-#code {
-    background: url(../img/dandelion.png) no-repeat top center;
-    background-size: cover;
-}
-#about {
-    background: url(../img/about-cover.JPG) no-repeat top center;
-    background-size: cover;
-}
+
+
+
 
 .parallax {
     position: relative;
@@ -855,6 +839,7 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
 .full-minimize {
     width: var(--closed-width);
     opacity: 0;
+    transition: all 0s;
 }
 
 .close-container {
@@ -905,30 +890,106 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
 }
 
 #design-box {
-    width: 50%;
-    height: 0;
-    z-index: -10;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
     opacity: 0;
     overflow: hidden;
+    display: none;
+}
+
+/* Website ids */
+
+#design {
+    background: url(../img/designbg.jpg) no-repeat top center;
+    background-size: cover;
+    justify-content: center;
+}
+
+#main {
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    text-shadow: 2px 3px 14px #383838;
+    opacity: 0;
+}
+
+#code {
+    background: url(../img/codebg_med.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+#about {
+    background: url(../img/aboutbg.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+#academics {
+    background: url(../img/unibg.jpg) no-repeat top center;
+    background-size: cover;
 }
 
 #code-box {
-    width: 50%;
-    height: 0;
-    z-index: -10;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
     opacity: 0;
     overflow: hidden;
+    display: none;
 }
+
+#academics-box {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    display: none;
+}
+
+#academics-box .col, a {
+    color: white;
+}
+
+#about-box {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    position: absolute;
+    opacity: 0;
+    align-content: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    overflow: hidden;
+}
+
+#about-box .col, a {
+    color: white;
+}
+
+
 
 .slide {
     width: inherit;
     height: inherit;
     position: relative;
-    z-index: 19;
 }
 
+.academics-slide {
+    flex-flow: column;
+}
+
+.year-header {
+    width: 100%;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.year-header h1 {
+    font-size: 350% !important;
+}
 
 .slide-left {
     justify-content: flex-end;
@@ -987,6 +1048,12 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     font-size: 450%;
 }
 
+.fa-lg {
+    font-size: 1.65em;
+}
+
+
+
 /*
 Image width formatting
  */
@@ -1031,7 +1098,7 @@ Loading screen styles
 }
 
 #loading-image {
-    background-image: url(../img/loading-image.JPG);
+    /*background-image: url(../img/loading-image.JPG);*/
     background-size: contain;
     filter: blur(35px);
     display: inherit;
@@ -1050,6 +1117,16 @@ Loading screen styles
     font-weight: 700;
     font-family: 'Heebo', sans-serif;
 }
+
+#first-year-link {
+    text-align: right;
+}
+
+#third-year-link {
+    text-align: left;
+}
+
+
 
 .loader,
 .loader:before,
