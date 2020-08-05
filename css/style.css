@@ -18,6 +18,7 @@ ul {
     color: white;
     text-shadow: 1px 1px 8px #d3d3d3;
     text-decoration-color: #FFF;
+    font-weight: 100;
 }
 .underConstructionText {
     font-family: 'Roboto', sans-serif;
@@ -25,6 +26,7 @@ ul {
     color: white;
     text-shadow: 1px 1px 8px #d3d3d3;
     text-decoration-color: #FFF;
+    font-weight: 100;
 }
 .underConstructionFooter {
     font-family: 'Roboto', sans-serif;
@@ -37,15 +39,27 @@ ul {
     width: 100%;
 }
 .underConstructionContainer {
-    position: fixed;
     bottom: 50%;
     width: 100%;
 }
 .underConstructionBG {
-    background-color: black;
+    background: #21252b;
     height: 100%;
     width: 100%;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.underConstructionLinks a {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.44em;
+    text-decoration: none;
+}
+
+.underConstructionLinks a:focus, a:hover {
+    color: #fff;
 }
 .footerGithubConst {
     padding-bottom: 2.2px;
