@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="2020 update work - update restructure page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restructure.html" beforeDir="false" afterPath="$PROJECT_DIR$/restructure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sta130_final_project.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+            <state relative-caret-position="265">
+              <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -46,26 +53,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+            <state relative-caret-position="1926">
+              <caret line="845" column="37" selection-start-line="845" selection-start-column="37" selection-end-line="845" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="256" selection-start-column="256" selection-end-column="256" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restructure.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="598">
+              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -82,11 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5324">
-              <caret line="57" column="40" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="40" />
-              <folding>
-                <element signature="n#!!block;n#removeLoader#0" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -104,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="687" selection-start-column="687" selection-end-column="687" />
+              <caret column="2212" selection-start-column="2212" selection-end-column="2212" />
             </state>
           </provider>
         </entry>
@@ -122,36 +122,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>loading=&quot;lazy&quot;</find>
-      <find>blur</find>
-      <find>\</find>
-      <find>bg</find>
-      <find>bg.</find>
-      <find>dslide-</find>
-      <find>full-ex</find>
-      <find>--closed</find>
-      <find>filter</find>
-      <find>fa-git</find>
-      <find>loading</find>
-      <find>download</find>
-      <find>here</find>
-      <find>about-cont</find>
-      <find>code</find>
-      <find>display</find>
-      <find>slide</find>
-      <find>slide-con</find>
-      <find>year-</find>
-      <find>hr</find>
-      <find>sep</find>
-      <find>year</find>
-      <find>year-header</find>
-      <find>backgo</find>
+      <find>par</find>
+      <find>.acad</find>
+      <find>parallax</find>
+      <find>expand</find>
+      <find>transition: all 0</find>
+      <find>#f</find>
+      <find>text</find>
+      <find>z-index</find>
+      <find>academics-slide</find>
       <find>course</find>
-      <find>padding-top</find>
-      <find>sorted</find>
-      <find>loade</find>
-      <find>background</find>
-      <find>undercon</find>
+      <find>course-desc</find>
+      <find>font-size</find>
+      <find>h2</find>
+      <find>col-sm</find>
+      <find>test</find>
+      <find>co</find>
+      <find>sta30</find>
+      <find>csc23</find>
+      <find>150%</find>
+      <find>multi</find>
+      <find>../</find>
+      <find>/files</find>
+      <find>files/</find>
+      <find>academics</find>
+      <find>2%</find>
+      <find>1.45</find>
+      <find>med</find>
+      <find>low</find>
+      <find>low.j</find>
+      <find>explora</find>
     </findStrings>
     <replaceStrings>
       <replace>0.3</replace>
@@ -161,6 +161,8 @@
       <replace>&quot;display&quot;, &quot;flex&quot;</replace>
       <replace>&quot;display&quot;, &quot;block&quot;</replace>
       <replace>bg_comp.</replace>
+      <replace>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</replace>
+      <replace>Theoretical Computer Science</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -176,10 +178,10 @@
         <option value="$PROJECT_DIR$/css/cover.min.css" />
         <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/js/script.min.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/restructure.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -260,6 +262,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/drive-download-20190821T141207Z-001" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
@@ -286,10 +289,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.restructure.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GreatArcStudios.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="restructure.html" type="JavascriptDebugType" uri="http://localhost:63342/GreatArcStudios.github.io/restructure.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.restructure.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
@@ -351,7 +361,7 @@
       <workItem from="1590676028149" duration="1380000" />
       <workItem from="1596418811320" duration="38143000" />
       <workItem from="1596512352877" duration="26756000" />
-      <workItem from="1596595325869" duration="10469000" />
+      <workItem from="1596595325869" duration="34351000" />
     </task>
     <task id="LOCAL-00001" summary="Added mute button">
       <created>1505271904626</created>
@@ -563,17 +573,24 @@
       <option name="project" value="LOCAL" />
       <updated>1596605564601</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="2020 update work - update restructure page">
+      <created>1596642520111</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1596642520111</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238421000" />
+    <option name="totallyTimeSpent" value="262303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1633" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1357007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13391739" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -591,7 +608,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="358" height="853" id="Documentation" order="3" side_tool="true" visible="true" weight="0.3335447" />
+      <window_info anchor="right" x="0" y="0" width="358" height="853" id="Documentation" order="3" side_tool="true" weight="0.3424223" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +641,6 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/Island beach 44.PNG" />
     <entry file="file://$PROJECT_DIR$/img/Landscape 4.png" />
     <entry file="file://$PROJECT_DIR$/img/dslide-mountains.png">
       <provider selected="true" editor-type-id="images" />
@@ -780,34 +796,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/particles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/cover.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="163" column="8" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5324">
-          <caret line="57" column="40" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!block;n#removeLoader#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="687" selection-start-column="687" selection-end-column="687" />
         </state>
       </provider>
     </entry>
@@ -818,24 +810,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/particles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2212" selection-start-column="2212" selection-end-column="2212" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+        <state relative-caret-position="1926">
+          <caret line="845" column="37" selection-start-line="845" selection-start-column="37" selection-end-line="845" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/restructure.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+        <state relative-caret-position="598">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
         </state>
       </provider>
     </entry>

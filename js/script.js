@@ -170,63 +170,32 @@ let design = document.querySelector("#design");
 let about = document.querySelector("#about");
 let academics = document.querySelector("#academics");
 let overlayTop = document.querySelector(".overlay-top");
-let animation_complete = true;
 let frontElements = [code, design, academics, about, overlayTop];
 
 function mouseEnter(panel) {
-	//console.log("Animation complete? ", animation_complete)
 
-	if (animation_complete) {
-		//console.log("mouse entered " + panel.id);
-		//animation_complete = false;
-		// setTimeout(() => {
-		// 	animation_complete = true;
-		// 	console.log("animation complete " + panel.id)
-		// }, 300);
 		for (let i = 0; i < frontElements.length - 1; i++) {
-			// if(i+1 === frontElements.length - 1){
-			//
-			// }
-
 			if (Object.is(frontElements[i], panel)) {
 				frontElements[i].classList.add("expand");
 			} else if (i !== frontElements.length - 1) {
 				frontElements[i].classList.add("minimize");
 			}
 		}
-		//animation_complete = true;
-	}
 }
 
 function mouseLeave(panel) {
-	//console.log("Animation complete? ", animation_complete)
-	if (animation_complete) {
-		//console.log("mouse left " + panel.id);
 
-		//animation_complete = false;
-		// setTimeout(() => {
-		// 	animation_complete = true;
-		// 	console.log("animation complete " + panel.id)
-		// }, 300);
 		for (let i = 0; i < frontElements.length - 1; i++) {
-			// if(i+1 === frontElements.length - 1){
-			//
-			// }
-
-
 			if (Object.is(frontElements[i], panel)) {
 				frontElements[i].classList.remove("expand");
 			} else if (i !== frontElements.length - 1) {
 				frontElements[i].classList.remove("minimize");
 			}
 		}
-		//animation_complete = true
-	}
 }
 
 function mouseClick(panel) {
 
-	if (animation_complete) {
 		for (let i = 0; i < frontElements.length; i++) {
 			if (Object.is(frontElements[i], panel)) {
 				frontElements[i].classList.add("full-expand");
@@ -237,24 +206,13 @@ function mouseClick(panel) {
 				frontElements[i].classList.add("full-minimize");
 			}
 		}
-	}
+
 }
 
 code.addEventListener("mouseenter", () => {
-	if (animation_complete) {
-		//animation_complete = false;
-		// setTimeout(() => {
-		// 	animation_complete = true;
-		// 	console.log("animation complete: code ")
-		// }, 300);
-		for (i = 3; i >= 0; i--) {
 
-			// if(i === 0){
-			// 	setTimeout(() => {
-			// 		animation_complete = true;
-			// 		console.log("animation complete: code ")
-			// 	}, 300);
-			// }
+	for (i = 3; i >= 0; i--) {
+
 
 			if (Object.is(frontElements[i], code)) {
 				frontElements[i].classList.add("expand");
@@ -262,8 +220,6 @@ code.addEventListener("mouseenter", () => {
 				frontElements[i].classList.add("minimize");
 			}
 		}
-		//animation_complete = true;
-	}
 
 });
 

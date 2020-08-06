@@ -9,6 +9,11 @@
     --expand-width: 100%;
     --closed-width: 0%;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 ul {
     list-style: square
 }
@@ -153,7 +158,6 @@ p {
     right: 0;
     width: 100%;
     height: 100%;
-    z-index: 10;
     background-color: #e5e5e5;
 }
 .overlayImg {
@@ -582,92 +586,7 @@ img.scrollDown:hover {
 /*
 }
 */
-@media screen and (max-width: 1024px) {
-    .content {
-        flex-flow: column !important;
-        width: 100% !important;
-    }
 
-    .middle-label {
-        top: initial !important;
-    }
-
-    .overlay-top {
-        left: 0 !important;
-        top: 0 !important;
-    }
-
-    .overlay-top > .inner {
-        padding-left: 12px;
-        padding-top: 5px;
-    }
-
-    .overlay-bottom {
-        display: none;
-    }
-
-    .slide-description > p {
-        font-size: 100% !important;
-    }
-
-    .slide-description > h1 {
-        font-size: 2rem !important;
-    }
-
-    .slide {
-        justify-content: center !important;
-        height: 75% !important;
-    }
-
-    .slide-content {
-        height: 75% !important;
-    }
-
-    #cslide-intro {
-        height: 100% !important;
-    }
-
-    #dslide-intro {
-        height: 100% !important;
-    }
-
-    #about-header {
-        font-size: 200% !important;
-    }
-
-    #main {
-        flex-flow: column !important;
-    }
-
-    .about-sm {
-        margin-top: 5%;
-    }
-
-    .about-content {
-        font-size: 110% !important;
-        margin-bottom: 1%;
-    }
-
-    .expand {
-        max-height: var(--hover-height) !important;
-        font-size: 180% !important;
-        text-align: center;
-    }
-
-    .minimize {
-        height: var(--other-height) !important;
-        font-size: 80%;
-    }
-
-    .slide-right {
-        justify-content: flex-end !important;
-        align-items: center;
-    }
-
-    .slide-image-replacer {
-        font-size: 300% !important;
-    }
-}
 
 .muteVideo {
     float: left;
@@ -697,13 +616,8 @@ img.scrollDown:hover {
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
     border-radius: 5px;
     background-color: rgba(255, 255, 255, .15);
-    backdrop-filter: blur(0px);
-    margin-right: 20%;
-    margin-bottom: 10px;
-    margin-left: 20%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-top: 10px;
+    margin: 10px 20%;
+    padding: 1.45% 1.5% 1.6%;
 }
 
 .course-type {
@@ -853,7 +767,7 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
 .full-minimize {
     width: var(--closed-width);
     opacity: 0;
-    transition: all 0s;
+    visibility: hidden;
 }
 
 .close-container {
@@ -992,6 +906,10 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
 
 .academics-slide {
     flex-flow: column;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    height: auto;
+    padding-top: 2%;
 }
 
 .year-header {
@@ -1066,7 +984,44 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     font-size: 1.65em;
 }
 
+.course-name h2 {
+    font-weight: 400;
+    font-size: 175%;
+    text-align: center;
+}
 
+.course-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: break-word;
+}
+
+div.course-description > p, div.course-description a {
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+div.course-description a {
+    text-decoration: underline;
+}
+
+div.course-description b {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.course-description {
+    display: flex;
+    align-items: center;
+}
+
+.courses-list {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
 /*
 Image width formatting
@@ -1205,5 +1160,97 @@ Loading screen styles
     40% {
         box-shadow: 0 -2em;
         height: 5em;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .content {
+        flex-flow: column !important;
+        width: 100% !important;
+    }
+
+    .middle-label {
+        top: initial !important;
+    }
+
+    .overlay-top {
+        left: 0 !important;
+        top: 0 !important;
+    }
+
+    .overlay-top > .inner {
+        padding-left: 12px;
+        padding-top: 5px;
+    }
+
+    .overlay-bottom {
+        display: none;
+    }
+
+    .slide-description > p {
+        font-size: 100% !important;
+    }
+
+    .slide-description > h1 {
+        font-size: 2rem !important;
+    }
+
+    .slide {
+        justify-content: center !important;
+        height: 75%;
+    }
+
+    .slide-content {
+        height: 75% !important;
+    }
+
+    #cslide-intro {
+        height: 100% !important;
+    }
+
+    #dslide-intro {
+        height: 100% !important;
+    }
+
+    #about-header {
+        font-size: 200% !important;
+    }
+
+    #main {
+        flex-flow: column !important;
+    }
+
+    .about-sm {
+        margin-top: 5%;
+    }
+
+    .about-content {
+        font-size: 110% !important;
+        margin-bottom: 1%;
+    }
+
+    .expand {
+        max-height: var(--hover-height) !important;
+        font-size: 180% !important;
+        text-align: center;
+    }
+
+    .minimize {
+        height: var(--other-height) !important;
+        font-size: 80%;
+    }
+
+    .slide-right {
+        justify-content: flex-end !important;
+        align-items: center;
+    }
+
+    .slide-image-replacer {
+        font-size: 300% !important;
+    }
+
+    .academics-slide {
+        height: auto;
     }
 }
