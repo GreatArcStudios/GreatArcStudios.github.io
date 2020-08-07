@@ -997,7 +997,7 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     overflow-wrap: break-word;
 }
 
-div.course-description > p, div.course-description a {
+div.course-description > p, div.course-description > a {
     text-align: left;
     margin-bottom: 0;
     font-size: 16px;
@@ -1015,12 +1015,27 @@ div.course-description b {
 
 .course-description {
     display: flex;
-    align-items: center;
+    align-items: start;
+    flex-flow: column;
 }
 
 .courses-list {
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+ol.assignment-list a {
+    text-decoration: none;
+    font-weight: 400
+
+}
+
+ol.assignment-list a:hover {
+    text-decoration: underline;
+}
+
+.assignment-list {
+    font-weight: 300
 }
 
 /*
