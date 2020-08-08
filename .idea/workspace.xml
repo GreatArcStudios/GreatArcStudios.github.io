@@ -4,15 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="2020 update work - update academics (finished second year classes), commit for testing before live site">
-      <change afterPath="$PROJECT_DIR$/files/248-final-q1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/248_a2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/248_a2_q1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/248_a2_q2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/248_final_ps.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/eco102_a6.pdf" afterDir="false" />
+    <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="2020 update work - time to take the update site live!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restructure.html" beforeDir="false" afterPath="$PROJECT_DIR$/restructure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/165_2018_ps4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/ps4_2018_handout.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+            <state relative-caret-position="593">
+              <caret line="371" column="71" selection-start-line="371" selection-start-column="71" selection-end-line="371" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -46,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/cover.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3749">
-              <caret line="163" column="8" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
+            <state relative-caret-position="380">
+              <caret line="164" column="14" lean-forward="true" selection-start-line="164" selection-start-column="14" selection-end-line="164" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -55,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="1031" lean-forward="true" selection-start-line="1031" selection-end-line="1031" />
+            <state relative-caret-position="270">
+              <caret line="1071" column="11" selection-start-line="1071" selection-start-column="4" selection-end-line="1071" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -66,14 +62,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restructure.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="221" column="50" selection-start-line="221" selection-start-column="50" selection-end-line="221" selection-end-column="50" />
-              <folding>
-                <element signature="n#div#2;n#div#3;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="667">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -127,11 +120,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>expand</find>
-      <find>transition: all 0</find>
       <find>#f</find>
       <find>text</find>
-      <find>z-index</find>
       <find>academics-slide</find>
       <find>course</find>
       <find>course-desc</find>
@@ -157,6 +147,9 @@
       <find>.course-des</find>
       <find>rigourous</find>
       <find>introdu</find>
+      <find>economic indi</find>
+      <find>csc165</find>
+      <find>z-index</find>
     </findStrings>
     <replaceStrings>
       <replace>0.3</replace>
@@ -183,10 +176,10 @@
         <option value="$PROJECT_DIR$/css/cover.min.css" />
         <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/js/script.min.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/restructure.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -367,7 +360,8 @@
       <workItem from="1596418811320" duration="38143000" />
       <workItem from="1596512352877" duration="26756000" />
       <workItem from="1596595325869" duration="37587000" />
-      <workItem from="1596740200456" duration="6964000" />
+      <workItem from="1596740200456" duration="7617000" />
+      <workItem from="1596819448304" duration="6021000" />
     </task>
     <task id="LOCAL-00001" summary="Added mute button">
       <created>1505271904626</created>
@@ -600,17 +594,24 @@
       <option name="project" value="LOCAL" />
       <updated>1596779699702</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="2020 update work - time to take the update site live!">
+      <created>1596780398543</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1596780398543</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272503000" />
+    <option name="totallyTimeSpent" value="279177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1633" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13391739" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13329162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -657,7 +658,8 @@
     <MESSAGE value="2020 update work - update restructure page" />
     <MESSAGE value="2020 update work - update academics (finished first year classes) and updated the projects page (added datafest)" />
     <MESSAGE value="2020 update work - update academics (finished second year classes), commit for testing before live site" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020 update work - update academics (finished second year classes), commit for testing before live site" />
+    <MESSAGE value="2020 update work - time to take the update site live!" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020 update work - time to take the update site live!" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -811,13 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/particles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -825,15 +820,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/cover.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3749">
-          <caret line="163" column="8" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restructure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/cover.min.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -865,18 +860,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="1031" lean-forward="true" selection-start-line="1031" selection-end-line="1031" />
+        <state relative-caret-position="270">
+          <caret line="1071" column="11" selection-start-line="1071" selection-start-column="4" selection-end-line="1071" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restructure.html">
+    <entry file="file://$PROJECT_DIR$/css/cover.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="221" column="50" selection-start-line="221" selection-start-column="50" selection-end-line="221" selection-end-column="50" />
-          <folding>
-            <element signature="n#div#2;n#div#3;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="164" column="14" lean-forward="true" selection-start-line="164" selection-start-column="14" selection-end-line="164" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="371" column="71" selection-start-line="371" selection-start-column="71" selection-end-line="371" selection-end-column="71" />
         </state>
       </provider>
     </entry>
