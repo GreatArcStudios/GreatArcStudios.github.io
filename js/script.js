@@ -16,6 +16,7 @@ function removeLoader() {
 $(document).ready(function () {
 	let about_box = $("#about-box");
 	$("#about").click(function () {
+		$("#about").addClass("full-expand");
 		about_box.css("display", "flex");
 		$("#about").attr("style", "position:fixed");
 		about_box.animate({
@@ -45,6 +46,7 @@ $(document).ready(function () {
 	});
 
 	$("#academics").click(function () {
+		$("#academics").addClass("full-expand");
 		let academics_box = $("#academics-box");
 		academics_box.css("display", "block");
 		sections[2].css("position", "fixed");
@@ -87,6 +89,7 @@ $(document).ready(function () {
 
 
 	$("#code").click(function () {
+		$("#code").addClass("full-expand");
 		$("#code-box").css("display", "block");
 		sections[0].css("position", "fixed");
 		$("#code-box").animate({
@@ -94,9 +97,9 @@ $(document).ready(function () {
 		}, 850);
 		$("#code-box").promise().done(
 			function () {
+				$('.slide').css("display", "flex");
 				$("#close-code").attr("style", "position:fixed");
 				$("#code-box").css("overflow", "visible");
-				$('.slide').css("display", "flex");
 			}
 		);
 
@@ -125,6 +128,7 @@ $(document).ready(function () {
 	});
 
 	$("#design").click(function () {
+		$("#design").addClass("full-expand");
 		$("#design-box").css("display", "block");
 		sections[1].css("position", "fixed");
 		$("#design-box").animate({
@@ -132,9 +136,10 @@ $(document).ready(function () {
 		}, 850);
 		$("#design-box").promise().done(
 			function () {
+
+				$('.slide').css("display", "flex");
 				$("#close-design").attr("style", "position:fixed");
 				$("#design-box").css("overflow", "visible");
-				$('.slide').css("display", "flex");
 			}
 		);
 
@@ -198,7 +203,6 @@ function mouseClick(panel) {
 
 		for (let i = 0; i < frontElements.length; i++) {
 			if (Object.is(frontElements[i], panel)) {
-				frontElements[i].classList.add("full-expand");
 				frontElements[i].classList.remove("expand");
 
 			} else {

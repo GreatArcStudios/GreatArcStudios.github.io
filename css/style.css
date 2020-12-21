@@ -135,7 +135,7 @@ p {
     height: 100%;
     line-height: 100px;
     text-align: center;
-    z-index: 10;
+    /*z-index: 10;*/
     opacity: 0;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -699,9 +699,6 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     flex-grow: 1;
 }
 
-
-
-
 .parallax {
     position: relative;
     height: 100%;
@@ -748,6 +745,7 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     width: var(--expand-width);
     filter: blur(20px);
     transform: scale(1.2);
+    z-index: -1;
 }
 
 .full-expand:after {
@@ -778,7 +776,7 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     align-items: flex-start;
     margin: 1.7%;
     padding: 20px;
-    z-index: 20;
+    z-index: 2;
 }
 
 .close-container p {
@@ -829,9 +827,32 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
 /* Website ids */
 
 #design {
-    background: url(../img/designbg.jpg) no-repeat top center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(../img/designbg.jpg);
     background-size: cover;
     justify-content: center;
+}
+
+#code {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(../img/codebg_med.jpg);
+    background-size: cover;
+}
+
+#about {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(../img/aboutbg.jpg);
+    background-size: cover;
+}
+
+#academics {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(../img/unibg.jpg);
+    background-size: cover;
 }
 
 #main {
@@ -842,20 +863,6 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     opacity: 0;
 }
 
-#code {
-    background: url(../img/codebg_med.jpg) no-repeat top center;
-    background-size: cover;
-}
-
-#about {
-    background: url(../img/aboutbg.jpg) no-repeat top center;
-    background-size: cover;
-}
-
-#academics {
-    background: url(../img/unibg.jpg) no-repeat top center;
-    background-size: cover;
-}
 
 #code-box {
     width: 100vw;
@@ -902,6 +909,7 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     width: inherit;
     height: inherit;
     position: relative;
+    z-index: 1;
 }
 
 .academics-slide {
