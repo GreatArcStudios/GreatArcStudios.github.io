@@ -4,15 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="2020 update work - time to take the update site live!">
-      <change afterPath="$PROJECT_DIR$/babel.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="Performance updates for the new year.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Eric Zhu &lt;ericz2241@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -149,7 +148,8 @@
       <workItem from="1596819448304" duration="6021000" />
       <workItem from="1608508990768" duration="269000" />
       <workItem from="1608509271138" duration="1498000" />
-      <workItem from="1608510792577" duration="7520000" />
+      <workItem from="1608510792577" duration="7892000" />
+      <workItem from="1608574133241" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="Added mute button">
       <created>1505271904626</created>
@@ -389,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596780398543</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Performance updates for the new year.">
+      <created>1608518407000</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1608518407000</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +436,8 @@
     <MESSAGE value="2020 update work - update academics (finished first year classes) and updated the projects page (added datafest)" />
     <MESSAGE value="2020 update work - update academics (finished second year classes), commit for testing before live site" />
     <MESSAGE value="2020 update work - time to take the update site live!" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020 update work - time to take the update site live!" />
+    <MESSAGE value="Performance updates for the new year." />
+    <option name="LAST_COMMIT_MESSAGE" value="Performance updates for the new year." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -443,6 +451,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="617" y="197" key="#Plugins/0.0.2048.1112@0.0.2048.1112" timestamp="1608509696752" />
+    <state x="636" y="38" key="CommitChangelistDialog2" timestamp="1608518674118">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="636" y="38" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1608518674118" />
     <state x="692" y="334" width="663" height="687" key="EditFileWatcherDialog" timestamp="1608513162588">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -455,9 +467,13 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="533" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1608513279181" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1608512617650">
+    <state x="617" y="285" key="Vcs.Push.Dialog.v2" timestamp="1608518697153">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1608512617650" />
+    <state x="617" y="285" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1608518697153" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1608518745566">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1608518745566" />
   </component>
 </project>
