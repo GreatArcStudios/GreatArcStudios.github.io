@@ -4,10 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="Small update">
+    <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="2021 update part 1: datafest, AMD, 3rd year coursework.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +153,9 @@
       <workItem from="1608574133241" duration="93000" />
       <workItem from="1610823404078" duration="1200000" />
       <workItem from="1620348221273" duration="6437000" />
-      <workItem from="1620605944241" duration="12966000" />
+      <workItem from="1620605944241" duration="13114000" />
+      <workItem from="1620771597935" duration="318000" />
+      <workItem from="1620773468402" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="Added mute button">
       <created>1505271904626</created>
@@ -416,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620608025852</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="2021 update part 1: datafest, AMD, 3rd year coursework.">
+      <created>1620771483403</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1620771483403</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +465,8 @@
     <MESSAGE value="Performance updates for the new year." />
     <MESSAGE value="Small update" />
     <MESSAGE value="2021 files update" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 files update" />
+    <MESSAGE value="2021 update part 1: datafest, AMD, 3rd year coursework." />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 update part 1: datafest, AMD, 3rd year coursework." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
