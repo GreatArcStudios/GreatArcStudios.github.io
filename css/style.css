@@ -880,6 +880,7 @@ a, p, h1, h3, .content, .resume-label, .middle-label {
     opacity: 0;
     overflow: hidden;
     display: none;
+    margin-bottom: 50px;
 }
 
 #academics-box .col, a {
@@ -1043,7 +1044,8 @@ ol.assignment-list a:hover {
 }
 
 .assignment-list {
-    font-weight: 300
+    font-weight: 300;
+    text-align: left;
 }
 
 /*
@@ -1275,5 +1277,9 @@ Loading screen styles
 
     .academics-slide {
         height: auto;
+    }
+
+    .course-type-container {
+        margin: 10px 10%;
     }
 }
