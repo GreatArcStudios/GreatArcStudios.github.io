@@ -1188,8 +1188,30 @@ Loading screen styles
     }
 }
 
-
 @media screen and (max-width: 1280px) {
+    .slide-description > p {
+        font-size: 75% !important;
+    }
+
+    .slide-description > h1 {
+        font-size: 2rem !important;
+    }
+
+    .slide {
+        justify-content: center !important;
+        height: 75%;
+    }
+
+    .slide-content {
+        height: 100% !important;
+    }
+
+    .slide-image-replacer {
+        font-size: 300% !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
     .content {
         flex-flow: column !important;
         width: 100% !important;
@@ -1211,23 +1233,6 @@ Loading screen styles
 
     .overlay-bottom {
         display: none;
-    }
-
-    .slide-description > p {
-        font-size: 75% !important;
-    }
-
-    .slide-description > h1 {
-        font-size: 2rem !important;
-    }
-
-    .slide {
-        justify-content: center !important;
-        height: 75%;
-    }
-
-    .slide-content {
-        height: 100% !important;
     }
 
     #cslide-intro {
@@ -1269,10 +1274,6 @@ Loading screen styles
     .slide-right {
         justify-content: flex-end !important;
         align-items: center;
-    }
-
-    .slide-image-replacer {
-        font-size: 300% !important;
     }
 
     .academics-slide {
