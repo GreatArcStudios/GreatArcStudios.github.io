@@ -4,7 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="2021 update part 1: datafest, AMD, 3rd year coursework.">
+    <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="Quick font size fix 2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
@@ -157,7 +157,8 @@
       <workItem from="1620605944241" duration="13114000" />
       <workItem from="1620771597935" duration="318000" />
       <workItem from="1620773468402" duration="65000" />
-      <workItem from="1621455480624" duration="623000" />
+      <workItem from="1621455480624" duration="710000" />
+      <workItem from="1621456300182" duration="217000" />
     </task>
     <task id="LOCAL-00001" summary="Added mute button">
       <created>1505271904626</created>
@@ -432,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620773525274</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Quick font size fix 2021">
+      <created>1621456182646</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1621456182646</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,6 +454,17 @@
         <option value="3" />
         <option value="1" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -475,7 +494,8 @@
     <MESSAGE value="Small update" />
     <MESSAGE value="2021 files update" />
     <MESSAGE value="2021 update part 1: datafest, AMD, 3rd year coursework." />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 update part 1: datafest, AMD, 3rd year coursework." />
+    <MESSAGE value="Quick font size fix 2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quick font size fix 2021" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
