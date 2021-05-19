@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b4f1c661-8fa2-4c05-8e70-bab1b638fe0d" name="Default" comment="2021 update part 1: datafest, AMD, 3rd year coursework.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -155,7 +156,8 @@
       <workItem from="1620348221273" duration="6437000" />
       <workItem from="1620605944241" duration="13114000" />
       <workItem from="1620771597935" duration="318000" />
-      <workItem from="1620773468402" duration="49000" />
+      <workItem from="1620773468402" duration="65000" />
+      <workItem from="1621455480624" duration="623000" />
     </task>
     <task id="LOCAL-00001" summary="Added mute button">
       <created>1505271904626</created>
@@ -423,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620771483403</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="2021 update part 1: datafest, AMD, 3rd year coursework.">
+      <created>1620773525274</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1620773525274</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1035,7 +1035,7 @@ div.course-description b {
 
 ol.assignment-list a {
     text-decoration: none;
-    font-weight: 400
+    font-weight: 400;
 
 }
 
@@ -1214,7 +1214,7 @@ Loading screen styles
     }
 
     .slide-description > p {
-        font-size: 100% !important;
+        font-size: 75% !important;
     }
 
     .slide-description > h1 {
@@ -1227,7 +1227,7 @@ Loading screen styles
     }
 
     .slide-content {
-        height: 75% !important;
+        height: 100% !important;
     }
 
     #cslide-intro {
