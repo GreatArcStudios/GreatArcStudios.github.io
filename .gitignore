@@ -6,6 +6,7 @@
 node_modules/
 dist/
 .idea/
+.idea/workspace.xml
 
 ### JetBrains ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
@@ -142,3 +143,7 @@ fabric.properties
 # Sonarlint plugin
 
 # End of https://www.gitignore.io/api/webstorm,jetbrains
+*.iml
+package-lock.json
+.idea/GreatArcStudios.github.io.iml
+.idea/workspace.xml
