@@ -5,7 +5,7 @@
 # My gitignore folders
 node_modules/
 dist/
-.idea/
+.idea/*
 .idea/workspace.xml
 
 ### JetBrains ###

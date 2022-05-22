@@ -1,4 +1,4 @@
-var sections = [$("#code"), $("#design"), $("#academics"), $("#about"), $(".overlay-top")];
+var sections = [$("#code"), $("#design"), $("#academics"), $("#experience"), $("#about"), $(".overlay-top")];
 
 $(window).on('load', function () {
 	$("#main").animate({opacity: '1'}, 100);
